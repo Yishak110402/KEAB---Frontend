@@ -1,15 +1,23 @@
 .navbar{
     display: flex;
     width: 100%;
-    padding: 2rem 6rem;
+    padding: 1rem 6rem 0;
     justify-content: space-between;
-    background-color: brown;
+    align-items: center;
+    background-color: #915c29;
     color: white;
+}
+.navbar .logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 .navbar .nav-links{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 .navbar .nav-links a{
     color: inherit;
+    font-size: 1.1rem;
+    text-decoration: none;
 }

@@ -1,15 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
 
 export default function Navbar(){
     return(
         <nav className="navbar">
             <div className="logo">
-                Our Logo
+                <Link to='/'>
+                <img src="https://i.postimg.cc/nLDxSvRj/KEAB-logo.jpg" alt="KEAB Logo" />
+                </Link>
             </div>
             <ul className="nav-links">
-                <NavLink to='/home'>Home</NavLink>
-                <NavLink to='./aboutus'>About us</NavLink>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/aboutus'>About us</NavLink>
                 <NavLink>Team</NavLink>
                 <NavLink>Contact</NavLink>
                 <NavLink>Home</NavLink>
