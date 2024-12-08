@@ -23,6 +23,13 @@
     background-color: #185530;
     padding: 2rem;
     border-radius: 7px;
+    outline: 2px solid #185530;
+    transition: all 0.2s ease;
+    cursor: default;
+}
+.core-values .value:hover{
+    background-color: #f7f7f7;
+    color: #185530;
 }
 .core-values .value h3{
     font-variant: small-caps;
@@ -31,5 +38,4 @@
 }
 .core-values .value p{
     font-size: 1.05rem;
-    color: #f7f7f7;
 }
