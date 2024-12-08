@@ -18,6 +18,8 @@
     align-items: center;
     background-color: #185530;
     color: white;
+    border-bottom: 3px solid #915c29;
+    /* border-top: 3px solid #915c29; */
 }
 .navbar .logo img{
     width: 60px;

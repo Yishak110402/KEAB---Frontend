@@ -1,0 +1,35 @@
+.core-values{
+    padding: 1rem 6rem;
+    background-color: #f7f7f7;
+    color: #f7f7f7;
+}
+.core-values h1{
+    color: #915c29;
+    font-size: 2.5rem;
+}
+.core-values .values{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+.core-values .value{
+    width: 48%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    justify-content: center;
+    height: 12rem;
+    background-color: #185530;
+    padding: 2rem;
+    border-radius: 7px;
+}
+.core-values .value h3{
+    font-variant: small-caps;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.core-values .value p{
+    font-size: 1.05rem;
+    color: #f7f7f7;
+}
