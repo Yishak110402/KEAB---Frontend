@@ -1,0 +1,24 @@
+.hero{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 0rem;
+}
+.hero .hero-company-name{
+    padding: 2rem 6rem;
+    text-align: center;
+}
+.hero .hero-company-name h1{
+    line-height: 1.5;
+    color: #915c29;
+}
+.hero .hero-image{
+    width: 100vw;
+    margin: 0 auto;
+}
+.hero .hero-image img{
+    width: 100vw;
+    filter: brightness(0.8);
+}

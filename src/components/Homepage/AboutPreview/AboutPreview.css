@@ -1,0 +1,45 @@
+.about-preview{
+    padding: 2rem 6rem;
+    background-image: url("https://i.postimg.cc/nLDxSvRj/KEAB-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 3rem;
+    /* align-items: center; */
+}
+.about-preview .shade{
+    width: 100vw;
+    height: 800vh;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 100;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+}
+.about-preview h1{
+    position: relative;
+    z-index: 100;
+    font-size: 2.5rem;
+    color: white;
+}
+.about-preview p{
+    position: relative;
+    z-index: 1000;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+}
+.about-preview a{
+    position: relative;
+    z-index: 100;
+    color: #f09e51;
+    /* font-size: 1.05rem; */
+    text-underline-offset: 0.1rem;
+}
