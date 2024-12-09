@@ -1,37 +1,27 @@
-.team-preview{
-    background-image: url("https://i.postimg.cc/ncZChfGS/teams-preview.jpg");
-    height: 50vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.team-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  padding-right: 0;
+  background-color: #185530;
+  height: 50vh;
+  overflow: hidden;
 }
-.team-preview * {
-    position: relative;
-    z-index: 1000;
+.team-preview .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.team-preview .shade{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 2;
-    background-image: linear-gradient(to right, rgba(0,0,0,0.7) 50%, transparent);
-    top: 0;
-    right: 0;
+.team-preview img {
+  width: 50vw;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 7px;
 }
-.team-preview .content{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-left: 6rem;
-}
-.team-preview a{
-    position: relative;
-    z-index: 10000;
-    font-size: 2.3rem;
-    color: #f7f7f7;
-    font-weight: 700;
-    text-underline-offset: 0.5rem;
-    /* text-decoration: none;   */
+.team-preview a {
+  color: #f7f7f7;
+  font-size: 1.3rem;
+  text-underline-offset: 0.2rem;
 }
