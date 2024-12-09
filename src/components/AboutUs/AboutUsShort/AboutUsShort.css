@@ -1,0 +1,13 @@
+.about-us-short{
+    padding: 2rem 6rem;
+}
+.about-us-short > h1{
+    font-size: 3rem;
+    color: #915c29;
+    margin-bottom: 3rem;
+}
+.about-us-short p{
+    color: #185530;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
