@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 import "./index.css";
 import Homepage from "./pages/Homepage";
 import GeneralProvider from "./hooks/GeneralContext";
+import Footer from "./components/Footer/Footer";
+import AboutUs from "./pages/AboutUs";
 
 export default function App() {
   return (
@@ -12,7 +14,9 @@ export default function App() {
           <Navbar />
           <Routes>
             <Route index element={<Homepage />} />
+            <Route element={<AboutUs />} path="/aboutus"/>
           </Routes>
+          {/* <Footer /> */}
         </GeneralProvider>
       </BrowserRouter>
     </div>
