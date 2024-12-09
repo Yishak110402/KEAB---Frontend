@@ -4,4 +4,25 @@
 }
 .focus-areas h1{
     font-size: 3rem;
+    color: #915c29;
+}
+.focus-areas-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.focus-areas-list .list{
+    width: 31%;
+    outline: 2px solid #185530;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+.focus-areas-list .list h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.focus-areas-list .list p{
+    font-size: 0.9rem;
+
 }

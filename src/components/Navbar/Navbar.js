@@ -22,9 +22,8 @@ export default function Navbar() {
         <ul className="nav-links">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/aboutus">About us</NavLink>
-          <NavLink>Team</NavLink>
-          <NavLink>Contact</NavLink>
-          <NavLink>Home</NavLink>
+          <NavLink to='/team'>Team</NavLink>
+          <NavLink to='/contact'>Contact</NavLink>
         </ul>
       </nav>
     </>
