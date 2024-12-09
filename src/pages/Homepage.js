@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AboutPreview from "../components/Homepage/AboutPreview/AboutPreview";
 import Hero from "../components/Homepage/Hero/Hero";
 import OurCoreValues from "../components/Homepage/OurCoreValues/OurCoreValues";
+import OurProjectsPreview from "../components/Homepage/OurProjectsPreview/OurProjectsPreview";
 
 export default function Homepage() {
     useEffect(function(){
@@ -17,6 +18,7 @@ export default function Homepage() {
             <Hero />
             <AboutPreview />
             <OurCoreValues />
+            <OurProjectsPreview />
         </>
     );
 }
