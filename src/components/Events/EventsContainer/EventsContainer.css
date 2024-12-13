@@ -1,0 +1,33 @@
+.events-container{
+    padding: 0rem 6rem;
+    display: flex;
+    gap: 2rem;
+    color: #185530;
+    background-color: #f7f7f7;
+}
+.event{
+    width: 31%;
+    border-radius: 6px;
+}
+.event img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.event h3{
+    font-size: 1.5rem;
+}
+.event h4{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.event button{
+    color: white;
+    background-color: #915c29;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 1.1rem;
+}

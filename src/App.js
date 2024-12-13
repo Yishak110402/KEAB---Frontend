@@ -8,6 +8,8 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import CompleteExecMessage from "./pages/CompleteExecMessage";
 import Team from "./pages/Team";
+import Events from "./pages/Events";
+import News from "./pages/News";
 
 export default function App() {
   return (
@@ -17,10 +19,15 @@ export default function App() {
           <Navbar />
           <Routes>
             <Route index element={<Homepage />} />
-            <Route element={<AboutUs />} path="/aboutus"/>
+            <Route element={<AboutUs />} path="/aboutus" />
             <Route element={<Contact />} path="/contact" />
             <Route element={<Team />} path="/team" />
-            <Route element={<CompleteExecMessage />} path="/exec-director-message" />  
+            <Route element={<Events />} path="/events" />
+            <Route element={<News />} path="/news" /> 
+            <Route
+              element={<CompleteExecMessage />}
+              path="/exec-director-message"
+            />
           </Routes>
           <Footer />
         </GeneralProvider>
