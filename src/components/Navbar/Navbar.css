@@ -74,9 +74,11 @@
         background-color: #185530;
         width: 70vw;
         height: 90vh;
+        transition: all 0.3s ease-out;
     }
     .navbar.closed .nav-links{
-        transform: translateX(-200%);
+        transform: translateX(-100%);
+        transition: all 0.3s ease-out;
     }
     .navbar .nav-links a{
         display: block;
