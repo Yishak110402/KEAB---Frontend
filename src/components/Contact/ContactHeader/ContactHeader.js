@@ -25,7 +25,7 @@ export default function ContactHeader() {
           </div>
         </div>
         <div className="options-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63353.63548284981!2d38.490235799999994!3d7.0559381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b14573a067b82b%3A0xa82c1a9985db8f16!2sHawassa!5e0!3m2!1sen!2set!4v1734072714733!5m2!1sen!2set" width="700" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63353.63548284981!2d38.490235799999994!3d7.0559381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17b14573a067b82b%3A0xa82c1a9985db8f16!2sHawassa!5e0!3m2!1sen!2set!4v1734072714733!5m2!1sen!2set" width="700" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Hawassa Map"></iframe>
         </div>
       </div>
     </div>
