@@ -39,3 +39,61 @@
     text-decoration: underline;
     text-underline-offset: 0.3rem;
 }
+.navbar .hamburger{
+    display: none;
+}
+.navbar .hamburger svg{
+    width: 40px;
+    height: 40px;
+    fill: #915c29;
+}
+
+@media(max-width:900px){
+    .navbar{
+        padding-inline: 2rem;
+    }
+    .info{
+        padding-inline: 2rem;
+    }
+}
+@media(max-width:750px){
+    .navbar .hamburger{
+        display: flex;
+    }
+    .navbar{
+        flex-flow: row-reverse;
+    }
+    .navbar .nav-links{
+        position: absolute;
+        top: 5.1rem;
+        left: 0;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;        
+        gap: 0;
+        background-color: #185530;
+        width: 70vw;
+        height: 90vh;
+    }
+    .navbar.closed .nav-links{
+        transform: translateX(-200%);
+    }
+    .navbar .nav-links a{
+        display: block;
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        padding-block: 0.7rem;
+    }
+    .navbar .nav-links a.active{
+        background-color: #915c29;
+    }
+    .info p{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:500px){
+    .navbar .nav-links{
+        width: 85vw;
+    }
+}

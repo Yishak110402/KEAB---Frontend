@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 export const GeneralContext = createContext();
 
 export default function GeneralProvider({children}) {
+  const [navOpen, setNavOpen] = useState(false)
   const [message, setMessage] = useState({
     name: "",
     email: "",
@@ -44,6 +45,8 @@ export default function GeneralProvider({children}) {
   return <GeneralContext.Provider value={
     {
         coreValues,
+        navOpen,
+        setNavOpen,
         message,
         setMessage, 
         team

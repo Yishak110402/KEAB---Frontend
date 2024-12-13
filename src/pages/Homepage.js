@@ -16,11 +16,11 @@ export default function Homepage() {
     })
     return (
         <>
-            <Hero />
-            <AboutPreview />
-            <MessagePreview />
-            <OurCoreValues />
-            <OurProjectsPreview />
+            {/* <Hero /> */}
+            {/* <AboutPreview /> */}
+            {/* <MessagePreview /> */}
+            {/* <OurCoreValues /> */}
+            {/* <OurProjectsPreview /> */}
         </>
     );
 }
