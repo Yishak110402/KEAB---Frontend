@@ -5,6 +5,7 @@ export const GeneralContext = createContext();
 export default function GeneralProvider({ children }) {
   const apiURL = "https://keab-api.onrender.com";
   const [navOpen, setNavOpen] = useState(false);
+  const [messageSending, setMessageSending] = useState(false)
   const [message, setMessage] = useState({
     name: "",
     email: "",
@@ -45,9 +46,12 @@ export default function GeneralProvider({ children }) {
   ];
 
   async function sendMessage() {
+    setMessageSending(true)
     const { name, email, content } = message;
     if (!email || !name || !message) {
       console.log("Fill out all fields");
+      setMessageSending(false)
+      alert("Please fill out all the required fields")
       return;
     }
     const res = await fetch(`${apiURL}/message`, {
@@ -60,9 +64,13 @@ export default function GeneralProvider({ children }) {
     const data = await res.json();
     if (data.status === "fail") {
       console.log(data.message);
+      setMessageSending(false)
+      alert(data.message)
       return
     }
     console.log("Message Sent");
+    alert("Message Sent");
+    setMessageSending(false)
   }
   return (
     <GeneralContext.Provider
@@ -75,6 +83,7 @@ export default function GeneralProvider({ children }) {
         setMessage,
         team,
         sendMessage,
+        messageSending
       }}>
       {children}
     </GeneralContext.Provider>

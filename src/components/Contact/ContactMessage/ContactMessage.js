@@ -2,7 +2,7 @@ import { useContext } from "react";
 import "./ContactMessage.css";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function ContactMessage() {
-  const { message, setMessage, sendMessage } = useContext(GeneralContext);
+  const { message, setMessage, sendMessage, messageSending} = useContext(GeneralContext);
   return (
     <div className="contact-message">
       <h1>Get in touch with our team for any inquiries.</h1>
@@ -48,7 +48,7 @@ export default function ContactMessage() {
             {message.content.length}/1000
           </p>
         </div>
-        <button type="submit">Send Message</button>
+        <button disabled={messageSending} type="submit">{messageSending ? "Sending..." : "Send Message"}</button>
       </form>
     </div>
   );
