@@ -19,8 +19,8 @@ export default function Homepage() {
             <Hero />
             <AboutPreview />
             <MessagePreview />
-            {/* <OurCoreValues /> */}
-            {/* <OurProjectsPreview /> */}
+            <OurCoreValues />
+            <OurProjectsPreview />
         </>
     );
 }

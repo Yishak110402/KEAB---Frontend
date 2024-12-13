@@ -39,3 +39,43 @@
 .core-values .value p{
     font-size: 1.05rem;
 }
+@media(max-width:1000px){
+    .core-values{
+        padding: 1rem 3rem;
+    }
+    .core-values .value h3{
+        font-size: 1.7rem;
+    }
+    .core-values .value p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:750px){
+    .core-valuesh1{
+        font-size: 1.8rem;
+    }
+    .core-values{
+        padding: 1rem;
+    }
+    .core-values .values{
+        gap: 1rem;
+    }
+    .core-values .value{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .core-values h1{
+        font-size: 1.5rem;
+    }
+    .core-values .value{
+        gap: 0.8rem;
+        padding: 1rem;
+    }
+    .core-values .value h3{
+        font-size: 1.3rem;
+    }
+    .core-values .value p{
+        font-size: 0.9rem;
+    }
+}

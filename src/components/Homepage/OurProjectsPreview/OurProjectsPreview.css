@@ -27,3 +27,37 @@
     object-fit: cover;
     border-radius: 8px;
 }
+@media(max-width:1000px){
+    .projects-preview{
+        padding: 2rem 3rem;
+    }
+}
+@media(max-width:800px){
+    .projects-preview h1{
+        font-size: 1.4rem;
+    }
+    .projects-preview img{
+        height: 450px;
+    }
+}
+@media(max-width:600px){
+    .projects-preview{
+        padding: 1rem;
+        flex-flow: column-reverse;
+        justify-content: center;
+    }
+    .projects-preview h1{
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    .projects-preview img{
+        height: 350px;
+        width: 55vw;
+    }
+    .projects-preview button{
+        font-size: 0.9rem;
+    }
+    .projects-preview .text-content{
+        text-align: center;
+    }
+}
