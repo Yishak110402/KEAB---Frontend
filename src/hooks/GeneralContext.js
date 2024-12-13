@@ -8,6 +8,12 @@ export default function GeneralProvider({children}) {
     email: "",
     message: "",
   })
+
+  const team = {
+    executiveTeam:[],
+    technologyTeam:[]
+  }
+
   const coreValues = [
     {
       title: "Justice and Equality",
@@ -39,7 +45,8 @@ export default function GeneralProvider({children}) {
     {
         coreValues,
         message,
-        setMessage
+        setMessage, 
+        team
     }
   }>{children}</GeneralContext.Provider>;
 }
