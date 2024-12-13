@@ -2,19 +2,19 @@ import { createContext, useState } from "react";
 
 export const GeneralContext = createContext();
 
-export default function GeneralProvider({children}) {
-  const apiURL = "https://keab-api.onrender.com"
-  const [navOpen, setNavOpen] = useState(false)
+export default function GeneralProvider({ children }) {
+  const apiURL = "https://keab-api.onrender.com";
+  const [navOpen, setNavOpen] = useState(false);
   const [message, setMessage] = useState({
     name: "",
     email: "",
-    message: "",
-  })
+    content: "",
+  });
 
   const team = {
-    executiveTeam:[],
-    technologyTeam:[]
-  }
+    executiveTeam: [],
+    technologyTeam: [],
+  };
 
   const coreValues = [
     {
@@ -43,15 +43,40 @@ export default function GeneralProvider({children}) {
         "Building partnerships and fostering inclusive participation in all our initiatives.",
     },
   ];
-  return <GeneralContext.Provider value={
-    {
+
+  async function sendMessage() {
+    const { name, email, content } = message;
+    if (!email || !name || !message) {
+      console.log("Fill out all fields");
+      return;
+    }
+    const res = await fetch(`${apiURL}/message`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, email, message: content }),
+    });
+    const data = await res.json();
+    if (data.status === "fail") {
+      console.log(data.message);
+      return
+    }
+    console.log("Message Sent");
+  }
+  return (
+    <GeneralContext.Provider
+      value={{
         apiURL,
         coreValues,
         navOpen,
         setNavOpen,
         message,
-        setMessage, 
-        team
-    }
-  }>{children}</GeneralContext.Provider>;
+        setMessage,
+        team,
+        sendMessage,
+      }}>
+      {children}
+    </GeneralContext.Provider>
+  );
 }
