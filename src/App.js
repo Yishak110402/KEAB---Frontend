@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import GeneralProvider from "./hooks/GeneralContext";
 import Footer from "./components/Footer/Footer";
 import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/Contact";
 
 export default function App() {
   return (
@@ -15,8 +16,9 @@ export default function App() {
           <Routes>
             <Route index element={<Homepage />} />
             <Route element={<AboutUs />} path="/aboutus"/>
+            <Route element={<Contact />} path="/contact" />  
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </GeneralProvider>
       </BrowserRouter>
     </div>

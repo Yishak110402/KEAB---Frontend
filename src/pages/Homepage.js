@@ -12,7 +12,7 @@ export default function Homepage() {
                 behavior:'instant'
             }
         )
-    },[])
+    })
     return (
         <>
             <Hero />

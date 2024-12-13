@@ -1,6 +1,29 @@
 .projects-preview{
-    padding: 2rem 6rem;
+    padding: 0rem 6rem;
+    /* padding-top: 4rem; */
     background-color: #185530;
     display: flex;
     color: #f7f7f7;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.projects-preview h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.projects-preview button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #915c29;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.projects-preview img{
+    width: 40vw;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 8px;
 }

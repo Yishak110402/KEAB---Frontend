@@ -20,5 +20,7 @@
 }
 .hero .hero-image img{
     width: 100vw;
-    filter: brightness(0.8);
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(0.9);
 }

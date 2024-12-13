@@ -6,7 +6,7 @@ export default function Hero(){
                 <h1>Welcome to KEABI Africa Community Development and Human Rights Organization (KACDHRO)</h1>
             </div>
             <div className="hero-image">
-                <img src="https://i.postimg.cc/9Xt7N9Kn/hero-bg-image.jpg" alt="KEAB Logo" />
+                <img src="https://i.postimg.cc/qgVp1QtT/new-keab-hero.jpg" alt="KEAB Logo" />
             </div>
         </div>
     )
