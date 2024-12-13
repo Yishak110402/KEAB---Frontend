@@ -1,0 +1,29 @@
+.contact-header{
+    padding: 2rem 6rem;
+    color: #185530;
+}
+.contact-header h1{
+    font-size: 3rem;
+}
+.contact-header .options-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.contact-header .options-list{
+    padding-top: 2rem;
+}
+.contact-header svg{
+    width: 60px;
+    height: 60px;
+    fill: #915c29;
+}
+.contact-header .option{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.contact-header .options-map iframe{
+    border-radius: 8px;
+    border: none;
+}
