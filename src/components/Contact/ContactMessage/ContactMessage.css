@@ -48,3 +48,48 @@
     border-radius: 4px;
     cursor: pointer
 }
+@media(max-width:1000px){
+    .contact-message{
+        padding: 2rem;
+    }
+    .contact-message h1{
+        font-size: 1.9rem;
+    }
+}
+@media(max-width:750px){
+    .contact-message h1{
+        font-size: 1.5rem;
+    }
+    .message-form input{
+        width: 40vw;
+    }
+    .message-form textarea{
+        width: 65vw;
+    }
+    .message-form label{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media(max-width:600px){
+    .contact-message{
+        padding: 2rem 1rem;
+    }
+    .contact-message h1{
+        font-size: 1.1rem;
+    }
+    .contact-message label{
+        font-size: 0.9rem;
+    }
+    .message-form input{
+        width: 65vw;
+        font-size: 0.9rem;
+    }
+    .message-form textarea{
+        width: 80vw;
+        font-size: 0.9rem;
+    }
+    .message-form button{
+        font-size: 0.8rem;
+    }
+}
