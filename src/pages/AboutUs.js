@@ -18,7 +18,7 @@ export default function AboutUs() {
       <AboutUsShort />
       <AboutUsVision />
       <AboutUsMission />
-      {/* <KeyFocusAreas /> */}
+      <KeyFocusAreas />
     </>
   );
 }

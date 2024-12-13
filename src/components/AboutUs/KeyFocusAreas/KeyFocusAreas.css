@@ -26,3 +26,31 @@
     font-size: 0.9rem;
 
 }
+@media(max-width:1000px){
+    .focus-areas{
+        padding: 2rem;
+    }
+    .focus-areas h1{
+        font-size: 2.3rem;
+    }
+    .focus-areas-list .list{
+        width: 48%;
+    }
+}
+@media(max-width:665px){
+    .focus-areas{
+        padding: 2rem 0rem;
+    }
+    .focus-areas-list{
+        gap: 0;
+    }
+    .focus-areas h1{
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+    .focus-areas-list .list{
+        border-radius: 0;
+        width: 100%;
+        padding: 1rem;
+    }
+}

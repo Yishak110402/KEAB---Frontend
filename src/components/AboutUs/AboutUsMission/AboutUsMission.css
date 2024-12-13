@@ -33,3 +33,31 @@
     font-size: 1.1rem;
     line-height: 1.5;
 }
+@media(max-width:800px){
+    .about-mission{
+        padding: 2rem;
+        background-position: right;
+        height: 50vh;
+    }
+    .about-mission h1{
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+    }
+    .about-mission p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:500px){
+    .about-mission{
+        padding: 1rem;
+    }
+    .about-mission .shade{
+        background-image: linear-gradient(to right,rgba(0,0,0,0.9) 25%,rgba(0,0,0,0.2));
+    }
+    .about-mission h1{
+        font-size: 1.6rem;
+    }
+    .about-mission p{
+        width: 75%;
+    }
+}
