@@ -19,9 +19,6 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
-.exec-message .message-content div{
-    /* width: 50vw; */
-}
 .exec-message img{
     width: 45vw;
 }
