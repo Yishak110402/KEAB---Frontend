@@ -23,6 +23,7 @@ export default function Navbar() {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/aboutus">About us</NavLink>
           <NavLink to='/team'>Team</NavLink>
+          <NavLink to='/projects'>Projects</NavLink>
           <NavLink to='/contact'>Contact</NavLink>
         </ul>
       </nav>
