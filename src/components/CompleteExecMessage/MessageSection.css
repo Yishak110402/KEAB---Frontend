@@ -15,12 +15,14 @@
 }
 .exec-message .message-content{
     display: flex;
+    flex-flow: column;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 1rem;
 }
 .exec-message img{
-    width: 45vw;
+    width: 65vw;
+    /* height: 400px; */
 }
 .exec-message h4, .exec-message h3, .exec-message h2{
     color: #915c29;
@@ -36,4 +38,38 @@
 }
 .exec-message h2{
     font-size: 1.2rem;
+}
+@media(max-width:900px){
+    .exec-message{
+        padding: 2rem;
+    }
+    .exec-message h1{
+        font-size: 2.3rem;
+    }
+    .exec-message h2{
+        font-size: 1rem;
+    }
+}
+@media(max-width:600px){
+    .exec-message{
+        padding: 2rem 1rem;
+    }
+    .exec-message h1{
+        font-size: 1.3rem;
+    }
+    .exec-message p{
+        font-size: 0.9rem;
+    }
+    .exec-message img{
+        width: 75vw;
+    }
+    .exec-message h4{
+        font-size: 1rem;
+    }
+    .exec-message h3{
+        font-size: 1.07rem;
+    }
+    .exec-message h2{
+        font-size: 0.9rem;
+    }
 }
