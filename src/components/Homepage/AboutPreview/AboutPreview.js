@@ -6,8 +6,7 @@ export default function AboutPreview() {
                 <div className="shade"></div>
                 <h1>KEAB</h1>
                 <p>KEABI Africa Community Development and Human Rights Promotion Organization (KACDHRPO) is a dedicated civil society organization based in Hawassa, Ethiopia. Founded with the belief that community-centered approaches lead to sustainable development, we are committed to fostering justice, equality, and opportunity for all. Our work spans diverse fields—from human rights advocacy to environmental protection and community empowerment—to build resilient communities across Ethiopia and Africa.</p>
-                <Link to="/aboutus">Read More</Link>
-                
+                <Link to="/aboutus">Read More</Link>                
             </div>
     );
 }

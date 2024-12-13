@@ -24,3 +24,34 @@
     object-fit: cover;
     filter: brightness(0.9);
 }
+@media(max-width:1000px){
+    .hero .hero-company-name{
+        padding-inline: 2rem;
+    }
+    .hero .hero-company-name h1{
+        font-size: 1.5rem;
+    }
+    .hero .hero-image img{
+        height: 65vh;
+    }
+}
+@media(max-width:600px){
+    .hero .hero-company-name{
+        padding-block: 1rem;
+    }
+    .hero .hero-company-name h1{
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .hero .hero-image img{
+        height: 50vh;
+    }
+}
+@media(max-width:450px){
+    .hero .hero-company-name{
+        padding-inline: 1rem;
+    }
+    .hero .hero-company-name h1{
+        font-size: 1rem;
+    }
+}

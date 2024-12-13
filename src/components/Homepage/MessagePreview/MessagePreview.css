@@ -35,3 +35,45 @@
     color: #f7f7f7;
     text-underline-offset: 0.2rem;
 }
+@media(max-width:1100px){
+    .message-preview{
+        padding: 2rem 4rem;
+    }
+    .message-preview h1{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:900px){
+    .message-preview h1{
+        font-size: 2rem;
+    }
+    .message-preview img{
+        width: 40vw;
+    }
+}
+@media(max-width:700px){
+    .message-preview{
+        padding: 2rem;
+    }
+    .message-preview h1{
+        font-size: 1.7rem;
+    }
+    .message-preview p{
+        font-size: 0.9rem;
+    }
+    .message-preview svg{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media(max-width:550px){
+    .message-preview .preview-container{
+        flex-flow: column;
+    }
+    .message-preview .preview-container div{
+        width: 100%;
+    }
+    .message-preview img{
+        width: 75vw;
+    }
+}

@@ -16,9 +16,9 @@ export default function Homepage() {
     })
     return (
         <>
-            {/* <Hero /> */}
-            {/* <AboutPreview /> */}
-            {/* <MessagePreview /> */}
+            <Hero />
+            <AboutPreview />
+            <MessagePreview />
             {/* <OurCoreValues /> */}
             {/* <OurProjectsPreview /> */}
         </>

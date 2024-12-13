@@ -43,3 +43,34 @@
     /* font-size: 1.05rem; */
     text-underline-offset: 0.1rem;
 }
+@media(max-width:900px){
+    .about-preview{
+        padding: 2rem 2rem;
+    }
+}
+@media(max-width:650px){
+    .about-preview .shade{
+        background-color: rgba(0,0,0,0.8);
+    }
+    .about-preview{
+        gap: 2rem;
+        height: 50vh;
+    }
+    .about-preview h1{
+        font-size: 1.8rem;
+    }
+    .about-preview p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:470px){
+    .about-preview{
+        padding: 1rem;
+    }
+    .about-preview h1{
+        font-size: 1.4rem;
+    }
+    .about-preview p{
+        font-size: 0.85rem;
+    }
+}
