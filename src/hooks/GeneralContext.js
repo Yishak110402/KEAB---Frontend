@@ -69,6 +69,11 @@ export default function GeneralProvider({ children }) {
       return
     }
     console.log("Message Sent");
+    setMessage({
+      name: "",
+      email: "",
+      content: "",
+    })
     alert("Message Sent");
     setMessageSending(false)
   }
