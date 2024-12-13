@@ -1,8 +1,13 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 export const GeneralContext = createContext();
 
 export default function GeneralProvider({children}) {
+  const [message, setMessage] = useState({
+    name: "",
+    email: "",
+    message: "",
+  })
   const coreValues = [
     {
       title: "Justice and Equality",
@@ -32,7 +37,9 @@ export default function GeneralProvider({children}) {
   ];
   return <GeneralContext.Provider value={
     {
-        coreValues
+        coreValues,
+        message,
+        setMessage
     }
   }>{children}</GeneralContext.Provider>;
 }

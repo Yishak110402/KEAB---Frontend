@@ -1,0 +1,42 @@
+.exec-message{
+    padding: 2rem 6rem;
+    background-color: #f7f7f7;
+    color: #185530;
+}
+.exec-message h1{
+    color: #915c29;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.exec-message p{
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    font-size: 1.05rem;
+}
+.exec-message .message-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.exec-message .message-content div{
+    /* width: 50vw; */
+}
+.exec-message img{
+    width: 45vw;
+}
+.exec-message h4, .exec-message h3, .exec-message h2{
+    color: #915c29;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+.exec-message h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.exec-message h3{
+    font-size: 1.3rem;
+}
+.exec-message h2{
+    font-size: 1.2rem;
+}

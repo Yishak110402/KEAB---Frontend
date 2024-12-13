@@ -1,0 +1,37 @@
+.message-preview{
+    background-color: #915c29;
+    color: #f7f7f7;
+    padding: 2rem 6rem;
+}
+.message-preview h1{
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+    color: #f7f7f7;
+}
+.message-preview svg{
+    width: 35px;
+    height: 35px;
+    fill: #f7f7f7;
+}
+.message-preview p{
+    font-style: italic;
+    font-weight: 500;
+}
+.message-preview .preview-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.message-preview .preview-container div{
+    width: 50vw;
+}
+.message-preview img{
+    width: 45vw;
+    border-radius: 8px;
+}
+.message-preview a{
+    display: block;
+    margin-top: 2rem;
+    color: #f7f7f7;
+    text-underline-offset: 0.2rem;
+}

@@ -3,6 +3,7 @@ import AboutPreview from "../components/Homepage/AboutPreview/AboutPreview";
 import Hero from "../components/Homepage/Hero/Hero";
 import OurCoreValues from "../components/Homepage/OurCoreValues/OurCoreValues";
 import OurProjectsPreview from "../components/Homepage/OurProjectsPreview/OurProjectsPreview";
+import MessagePreview from "../components/Homepage/MessagePreview/MessagePreview";
 
 export default function Homepage() {
     useEffect(function(){
@@ -17,6 +18,7 @@ export default function Homepage() {
         <>
             <Hero />
             <AboutPreview />
+            <MessagePreview />
             <OurCoreValues />
             <OurProjectsPreview />
         </>

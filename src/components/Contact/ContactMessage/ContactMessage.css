@@ -1,0 +1,50 @@
+.contact-message{
+    background-color: #185530;
+    color: #f7f7f7;
+    padding: 2rem 6rem;
+}
+.contact-message h1{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.message-form div{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+.message-form input{
+    width: 30vw;
+    padding: 0.2rem;
+    padding-left: 0;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 4px;
+}
+.message-form textarea{
+    width: 55vw;
+    height: 30vh;
+    border: none;
+    border-radius: 4px;
+    resize: none;
+    padding: 0.5rem;
+    font: inherit;
+}
+.message-form p{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.length.red{
+    color: rgb(253, 126, 126);
+}
+.message-form button{
+    color: #f7f7f7;
+    background-color: #915c29;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+}
