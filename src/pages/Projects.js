@@ -3,6 +3,7 @@ import ProjectsHeader from '../components/Projects/Projects Header/ProjectsHeade
 import ProjectsMainComponent from '../components/Projects/Projects Main Content/ProjectsMainComponent'
 import ProjectDetail from '../components/Projects/Projects Detail/ProjectDetail'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 const projects=[
@@ -37,6 +38,7 @@ const projects=[
 export default function Projects() {
   const [projectDetail,setProjectDetail]=useState(false)
   const [selectedProject, setSelectedProject]=useState(null)
+  const navigate = useNavigate()
   return (
     <div className='projects'>
         {/* <Navbar/> */}
@@ -52,7 +54,7 @@ export default function Projects() {
                     <div className="prompt">
                         <h1>Ready to Make a Difference?</h1>
                         <p>Contact us to learn how you can support or join our mission.</p>
-                        <button>Contact Us</button>
+                        <button onClick={()=>(navigate('/contact'))}>Contact Us</button>
                     </div>
              </div> 
             </>
