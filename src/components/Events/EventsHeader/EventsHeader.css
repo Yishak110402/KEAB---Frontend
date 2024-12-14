@@ -12,3 +12,26 @@
     color: #915c29;
     font-size: 1.5rem;
 }
+@media(max-width:1000px){
+    .events-header{
+        padding: 2rem 3rem;
+    }
+    .events-header h1{
+        font-size: 2.3rem;
+    }
+    .events-header h3{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:700px){
+    .events-header{
+        padding: 2rem 1rem;
+    }
+    .events-header h1{
+        font-size: 1.8rem;
+        margin-bottom: 0.6rem;
+    }
+    .events-header h3{
+        font-size: 1rem;
+    }
+}

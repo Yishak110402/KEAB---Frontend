@@ -6,6 +6,8 @@ export default function EventsContainer() {
             <Event />
             <Event />
             <Event />
+            <Event />
+            <Event />
         </div>
     )
 }
