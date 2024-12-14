@@ -1,0 +1,14 @@
+.event-content{
+    padding: 2rem 6rem;
+    color: #185530;
+}
+.event-content h1{
+    /* text-align: center; */
+    color: #915c29;
+    margin-bottom: 2rem;
+}
+.event-content p{
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+}

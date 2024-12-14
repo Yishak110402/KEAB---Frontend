@@ -1,4 +1,7 @@
-export default function Event({event}) {
+import { useNavigate } from "react-router-dom";
+
+export default function Event({event, id}) {
+  const navigate = useNavigate()
   let formattedDate = new Date(event.date)
   formattedDate = formattedDate.toDateString() 
   return (
@@ -10,7 +13,7 @@ export default function Event({event}) {
       />
       <h3>{event.name}</h3>
       <h4>Date: {formattedDate}</h4>
-      <button>See Full Detail</button>
+      <button onClick={()=>(navigate(`/events/${id}`))}>See Full Detail</button>
     </div>
   );
 }

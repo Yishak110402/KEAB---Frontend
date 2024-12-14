@@ -10,7 +10,7 @@ export default function EventsContainer() {
     <div className="events-container">
       {events.length !== 0 &&
         !loadingEvent &&
-        events.map((event) => <Event event={event} />)}
+        events.map((event, id) => <Event event={event} id = {id}  />)}
       {events.length === 0 && !loadingEvent && (
         <div className="no-events">
           <p>No Events have been posted</p>

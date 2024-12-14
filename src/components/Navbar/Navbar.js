@@ -37,7 +37,7 @@ export default function Navbar() {
           <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About us</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to='/team'>Team</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to='/projects'>Projects</NavLink>
-          <NavLink onClick={()=>(setNavOpen(false))} to='/news'>News</NavLink>
+          {/* <NavLink onClick={()=>(setNavOpen(false))} to='/news'>News</NavLink> */}
           <NavLink onClick={()=>(setNavOpen(false))} to='/events'>Events</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to='/contact'>Contact</NavLink>
       
