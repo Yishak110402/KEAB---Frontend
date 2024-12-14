@@ -1,10 +1,12 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const GeneralContext = createContext();
 
 export default function GeneralProvider({ children }) {
   const apiURL = "https://keab-api.onrender.com";
   const [navOpen, setNavOpen] = useState(false);
+  const [events, setEvents] = useState([])
+  const [loadingEvent, setLoadingEvent] = useState(false)
   const [messageSending, setMessageSending] = useState(false)
   const [message, setMessage] = useState({
     name: "",
@@ -45,6 +47,19 @@ export default function GeneralProvider({ children }) {
     },
   ];
 
+  useEffect(function(){
+    async function getEvents(){
+      setLoadingEvent(true)
+      const res = await fetch(`${apiURL}/events`)
+      const data = await res.json()
+      if (data.status === 'success'){
+        setEvents(data.data.events)        
+      }
+      setLoadingEvent(false)
+    }
+    getEvents()
+  },[])
+
   async function sendMessage() {
     setMessageSending(true)
     const { name, email, content } = message;
@@ -77,6 +92,7 @@ export default function GeneralProvider({ children }) {
     alert("Message Sent");
     setMessageSending(false)
   }
+
   return (
     <GeneralContext.Provider
       value={{
@@ -88,7 +104,9 @@ export default function GeneralProvider({ children }) {
         setMessage,
         team,
         sendMessage,
-        messageSending
+        messageSending,
+        events,
+        loadingEvent
       }}>
       {children}
     </GeneralContext.Provider>
