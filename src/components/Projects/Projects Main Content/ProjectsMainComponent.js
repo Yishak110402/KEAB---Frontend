@@ -1,7 +1,7 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './ProjectsMainComponent.css'
 
-const arr=[1,2,3,4]
+// const arr=[1,2,3,4]
 
 export default function ProjectsMainComponent({setProjectDetail,setSelectedProject,projects}) {
 
