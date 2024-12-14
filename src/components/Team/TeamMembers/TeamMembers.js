@@ -1,4 +1,4 @@
-import ExecutiveMembers from "../ExecutiveMembers/ExecutiveMembers"
+import ExecutiveMembers from "../ExecutiveMembers/executiveMembers"
 import "./TeamMembers.css"
 export default function TeamMember(){
     return(
