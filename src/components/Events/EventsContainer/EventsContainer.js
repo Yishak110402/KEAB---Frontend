@@ -11,13 +11,18 @@ export default function EventsContainer() {
       {events.length !== 0 &&
         !loadingEvent &&
         events.map((event) => <Event event={event} />)}
-        {
-            events.length === 0 && !loadingEvent &&(
-                <div className="no-events">
-                    <p>No Events have been posted</p>
-                    </div>
-            )
-        }
+      {events.length === 0 && !loadingEvent && (
+        <div className="no-events">
+          <p>No Events have been posted</p>
+        </div>
+      )}
+      {
+        loadingEvent && (
+            <div className="loader">
+                <img src="https://i.postimg.cc/nLDxSvRj/KEAB-logo.jpg" alt="KEAB Logo" />
+            </div>
+        )
+      }
     </div>
   );
 }

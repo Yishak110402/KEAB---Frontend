@@ -44,6 +44,31 @@
 .no-events p{
     font-size: 2.3rem;
 }
+.events-container .loader{
+    padding-top: 3rem;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events-container .loader img{
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+    animation: loading 0.5s alternate-reverse infinite;
+}
+@keyframes loading{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.1);
+    }
+}
 @media(max-width:1000px){
     .events-container{
         padding: 2rem 3rem;
@@ -56,6 +81,9 @@
     }
     .event h4{
         font-size: 0.9rem;
+    }
+    .events-container .loader img{
+        width: 30%;
     }
 }
 @media(max-width:700px){
@@ -73,5 +101,13 @@
     }
     .event button{
         font-size: 0.9rem;
+    }
+}
+@media(max-width:650px){
+    .no-events p{
+        font-size: 1.1rem;
+    }
+    .events-container .loader img{
+        width: 65%;
     }
 }
