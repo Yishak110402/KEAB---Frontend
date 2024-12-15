@@ -12,6 +12,7 @@ import News from "./pages/News";
 // import Projects from "./pages/Projects";
 import OpenEvent from "./pages/OpenEvent";
 import Team from "./pages/Team";
+import OpenTeam from "./pages/OpenTeam";
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
             <Route element={<News />} path="/news" /> 
             {/* <Route element={<Projects />} path = "/projects" /> */}
             <Route element={<Team />} path="/team" />
+            <Route element={<OpenTeam />} path="/team/:id" />
             <Route
               element={<CompleteExecMessage />}
               path="/exec-director-message"
