@@ -1,14 +1,19 @@
+import { useContext } from "react";
 import Member from "../Member/Member";
+import { GeneralContext } from "../../../hooks/GeneralContext";
 
 export default function ExecutiveMembers(){
+    const {team} = useContext(GeneralContext)
+    const execTeam = team.filter((t)=>(t.team === "executive"))
     return(
         <div className="teams-list">
             <h1>Executive Team</h1>
             <div className="container">
-                <Member />
-                <Member />
-                <Member />
-                <Member />
+               {
+                execTeam.map((team, index)=>(
+                    <Member team = {team} index = {index} />
+                ))
+               }
             </div>
         </div>
     )

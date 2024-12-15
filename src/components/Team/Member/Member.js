@@ -1,16 +1,10 @@
-import { useContext } from "react"
 import "./Member.css"
-import { GeneralContext } from "../../../hooks/GeneralContext"
-export default function Member(){
-    const {team} = useContext(GeneralContext)
-    const execTeam = team.filter((t)=>(t.team === "executive"))
-    console.log(execTeam);
-    
+export default function Member({team, index}){    
     return(
         <div className="member">
-            <img src="https://i.postimg.cc/s2vXWD1W/natnael-ashenafi-bio.jpg" alt="" />
-            <h3>{team[0].name}</h3>
-            <h4>{team[0].position}</h4>
+            <img src={team.image} alt="" />
+            <h3>{team.name}</h3>
+            <h4>{team.position}</h4>
         </div>
     )
 }
