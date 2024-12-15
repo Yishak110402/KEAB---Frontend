@@ -52,4 +52,7 @@
     .teams-list .member{
         width: 100%;
     }
+    .teams-list > h1{
+        font-size: 1.2rem;
+    }
 }
