@@ -7,7 +7,7 @@ export default function ExecutiveMembers(){
     const execTeam = team.filter((t)=>(t.team === "executive"))
     return(
         <div className="teams-list">
-            <h1>Executive Team</h1>
+            <h1>Founders</h1>
             <div className="container">
                {
                 execTeam.map((team, index)=>(

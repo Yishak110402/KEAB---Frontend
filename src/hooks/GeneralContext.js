@@ -32,6 +32,16 @@ const team = [
     ]
   },
   {
+    name:"Woyesa Woka Worana",
+    position:"Country Director of HALE-Human Rights & Inclusion Network (H-HRIN) | Human Rights Lawyer | Co-Founder of KEABI Africa Community Development and Human Rights Organization",
+    image:"https://i.postimg.cc/9X6Z5Bhv/woyessa-bio-photo.jpg",
+    team:"executive",
+    description:[
+      "Woyesa is a dedicated human rights lawyer and advocate for climate justice, peace, gender equality, and inclusion. As the Country Director of HALE-Human Rights & Inclusion Network (H-HRIN), he leads initiatives promoting social justice, sustainability, and human rights across Ethiopia and beyond.",
+      "As Co-Founder of  KEABI Africa Community Development and Human Rights Organization, Woyesa is committed to advancing sustainable development and protecting the rights of marginalized communities, working tirelessly to create a more just, inclusive, and sustainable world."
+    ]
+  },
+  {
     name:"Natnael Ashenafi Getahun (Bsc,Msc)",
     position:"Technology Team",
     image:"https://i.postimg.cc/s2vXWD1W/natnael-ashenafi-bio.jpg",
