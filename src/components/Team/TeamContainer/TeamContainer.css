@@ -10,18 +10,20 @@
 .teams-list > h1 {
   margin-bottom: 1.5rem;
   color: #185530;
+  font-size: 1.8rem;
 }
 .teams-list .member {
   width: 31%;
   background-color: white;
   border-radius: 7px;
-  padding: 1rem;
+  padding: 2rem 1rem;
 }
 .teams-list .member img {
   width: 100%;
   height: 55vh;
   object-fit: cover;
   object-position: center;
+  border-radius: 6px;
 }
 .teams-list .member h3{
     margin-bottom: 1rem;
@@ -31,4 +33,23 @@
     font-size: 1rem;
     color: #915c29;
     font-weight: 400;
+}
+@media(max-width:1000px){
+    .teams-list{
+        padding: 2rem 3rem;
+    }
+    .teams-list .member{
+        width: 48%;
+    }
+    .teams-list .member img{
+        height: 48vh;
+    }
+}
+@media(max-width:650px){
+    .teams-list{
+        padding: 2rem 1rem;
+    }
+    .teams-list .member{
+        width: 100%;
+    }
 }
