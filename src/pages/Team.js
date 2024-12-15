@@ -1,9 +1,9 @@
-import TeamMembers from "../components/Team/TeamMembers/TeamMembers";
+import TeamHeader from "../components/Team/TeamHeader/TeamHeader";
 
 export default function Team(){
     return(
         <>
-            <TeamMembers />
+            <TeamHeader />
         </>
     )
 }
