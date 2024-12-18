@@ -3,6 +3,7 @@ import AboutUsMission from "../components/AboutUs/AboutUsMission/AboutUsMission"
 import AboutUsShort from "../components/AboutUs/AboutUsShort/AboutUsShort";
 import AboutUsVision from "../components/AboutUs/AboutUsVision/AboutUsVision";
 import KeyFocusAreas from "../components/AboutUs/KeyFocusAreas/KeyFocusAreas";
+import AdditionalInsights from "../components/AboutUs/AdditionalInsights/AdditionalInsights";
 
 export default function AboutUs() {
   useEffect(function(){
@@ -19,6 +20,7 @@ export default function AboutUs() {
       <AboutUsVision />
       <AboutUsMission />
       <KeyFocusAreas />
+      <AdditionalInsights />
     </>
   );
 }
