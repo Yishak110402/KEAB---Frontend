@@ -1,6 +1,6 @@
 .about-vision{
     background-image: url("https://i.postimg.cc/fL2Mv19Z/vision-image.jpg");
-    height: 45vh;
+    height: 65vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -36,7 +36,7 @@
     .about-vision{
         padding: 2rem;
         background-position: right;
-        height: 40vh;
+        height: 75vh;
     }
     .about-vision h1{
         font-size: 2.2rem;

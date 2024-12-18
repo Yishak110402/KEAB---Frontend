@@ -4,7 +4,7 @@ export default function AboutUsMission(){
         <div className="about-mission">
             <div className="shade"></div>
             <h1>Mission</h1>
-            <p>Our mission is to advance community development and human rights through advocacy, education, civic engagement,research and social services, enabling marginalized groups, especially women and youth, to actively participate in and benefit from democratic processes, governance,  sustainable development, and environmental justice.</p>
+            <p>KEABI Africa’s mission is to advance community development and human rights by promoting social justice, equality, and environmental sustainability. Our focus is on advocacy, education, civic engagement, and the provision of essential social services. We aim to ensure that marginalized groups—especially women, youth, and children—are not only beneficiaries of these efforts but are also actively involved in shaping and driving the change they want to see.</p>
         </div>
     )
 }

@@ -10,6 +10,7 @@
     color: #185530;
     font-size: 1.2rem;
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
 @media(max-width:900px){
     .about-us-short{

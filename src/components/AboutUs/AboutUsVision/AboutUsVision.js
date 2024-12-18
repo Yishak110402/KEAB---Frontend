@@ -5,7 +5,7 @@ export default function AboutUsVision(){
         <div className="about-vision">
             <div className="shade"></div>
             <h1>Vision</h1>
-            <p>To create a just, inclusive, and empowered society in Africa where human rights are upheld, communities are resilient, and all individuals have the opportunity to thrive in a sustainable environment.</p>
+            <p>Our vision is to create a just, inclusive, and empowered society in Africa—one where human rights are protected, marginalized groups are empowered, communities are resilient, and all individuals can thrive in a sustainable environment. We aspire to a future in which each person has equitable access to opportunities for education, employment, healthcare, and a clean, safe environment, and where their voices are heard and respected in all decisions that impact their lives..</p>
         </div>
     )
 }

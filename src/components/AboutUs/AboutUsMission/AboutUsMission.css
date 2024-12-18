@@ -1,6 +1,6 @@
 .about-mission{
     background-image: url("https://i.postimg.cc/qq6g6pZW/mission-image.jpg");
-    height: 45vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -33,11 +33,16 @@
     font-size: 1.1rem;
     line-height: 1.5;
 }
+@media(max-width:1000px){
+    .about-mission{
+        height: 65vh;
+    }
+}
 @media(max-width:800px){
     .about-mission{
         padding: 2rem;
         background-position: right;
-        height: 50vh;
+        /* height: 75vh; */
     }
     .about-mission h1{
         font-size: 2.2rem;
