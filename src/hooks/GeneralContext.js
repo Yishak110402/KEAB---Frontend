@@ -71,6 +71,19 @@ export default function GeneralProvider({ children }) {
         "Natnael’s strong communication, leadership, and management skills have enabled him to inspire and collaborate with others effectively. He envisions a future where technology is harnessed to address pressing societal challenges. With a focus on bridging the gap between technical expertise and community needs, Natnael aims to ensure his work contributes to meaningful and transformative change in people’s lives.",
       ],
     },
+    {
+      name:"Nebere Elias",
+      image:"https://i.postimg.cc/k5BFJC7T/nebere-elias-bio.jpg",
+      position:"Advisory Team member",
+      team:"advisory",
+      description:[
+        "Nebere Elias is a 30 year-old health professional with an MSc in Advanced Cardiovascular Nurse Practitioner . He is an active member of the Young African Leadership Initiative (YALI) RLC East Africa Alumni and serves as an Ambassador for the 6th edition of the International Youth Conference. Nebere works as a government/Public/NGO/private institutions -employed and held different leadership Positions at Healthcare Facilities started from providing care,  holds the position of  Clinical Governance and Quality Improvements Officer of the hospital, Currently CEO of Dr Solomon Memorial Primary Hospital,  and  also volunteer at community , American Corners .",
+        "He is the co-founder of the Serve Human In need of Medical access and Board Secretary, where he leads establishment as well strategic guidance.",
+        "Nebere is founding member US Exchange Alumni Association Ethiopian ,member of  Ethiopian Cardiac Professional Society, Regional Coordinator For Ethiopian Nurse Association (Sidama Region) Country Director For Association of Mental Health Reform Organisations in Africa AMHROA Network and the Global Youth Network",
+        "Nebere is passionate about youth empowerment and plans to establish a local youth initiative in the near future, committed to community development, advocating for youth empowerment, human rights, inclusivity, and youth participation. As a goal-oriented and analytical individual, Nebere is always eager to contribute to improving communities and driving positive change."
+      ]
+
+    }
   ];
 
   const coreValues = [
