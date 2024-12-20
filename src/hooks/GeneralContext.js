@@ -14,6 +14,12 @@ export default function GeneralProvider({ children }) {
     content: "",
   });
 
+  const heroImages = [
+    "https://i.postimg.cc/qgVp1QtT/new-keab-hero.jpg",
+    "https://i.postimg.cc/rsFMMHT9/hero-image-2.jpg",
+    "https://i.postimg.cc/T2WZWG7W/hero-image-3.jpg",
+    // "https://i.postimg.cc/sxSqF9QJ/hero-image-4.jpg"
+  ];
   const team = [
     {
       name: "Yohanan Yokamo Yotona (LLB, BSc, LLM, PhD Cand)",
@@ -45,7 +51,7 @@ export default function GeneralProvider({ children }) {
     {
       name: "Bereket Yoseph Sunkura (BA, MBA)",
       position: "Founder| BA, MBA, | Management Specialist",
-      image:"https://i.postimg.cc/DZmLFjmK/bereket-bio-image.jpg",
+      image: "https://i.postimg.cc/DZmLFjmK/bereket-bio-image.jpg",
       team: "executive",
       description: [
         "Bereket Yosef Sunkura (BA, MBA) is a visionary leader and an inspiring advocate for peacebuilding, women empowerment, humanitarian initiatives, and community development. As the Founder of KEABI Africa Community Development and Human Rights Organization (KACDHRO), she brings a wealth of expertise and dedication to advancing social justice and collective progress.",
@@ -72,18 +78,17 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name:"Nebere Elias",
-      image:"https://i.postimg.cc/k5BFJC7T/nebere-elias-bio.jpg",
-      position:"Advisory Team member",
-      team:"advisory",
-      description:[
+      name: "Nebere Elias",
+      image: "https://i.postimg.cc/k5BFJC7T/nebere-elias-bio.jpg",
+      position: "Advisory Team member",
+      team: "advisory",
+      description: [
         "Nebere Elias is a 30 year-old health professional with an MSc in Advanced Cardiovascular Nurse Practitioner . He is an active member of the Young African Leadership Initiative (YALI) RLC East Africa Alumni and serves as an Ambassador for the 6th edition of the International Youth Conference. Nebere works as a government/Public/NGO/private institutions -employed and held different leadership Positions at Healthcare Facilities started from providing care,  holds the position of  Clinical Governance and Quality Improvements Officer of the hospital, Currently CEO of Dr Solomon Memorial Primary Hospital,  and  also volunteer at community , American Corners .",
         "He is the co-founder of the Serve Human In need of Medical access and Board Secretary, where he leads establishment as well strategic guidance.",
         "Nebere is founding member US Exchange Alumni Association Ethiopian ,member of  Ethiopian Cardiac Professional Society, Regional Coordinator For Ethiopian Nurse Association (Sidama Region) Country Director For Association of Mental Health Reform Organisations in Africa AMHROA Network and the Global Youth Network",
-        "Nebere is passionate about youth empowerment and plans to establish a local youth initiative in the near future, committed to community development, advocating for youth empowerment, human rights, inclusivity, and youth participation. As a goal-oriented and analytical individual, Nebere is always eager to contribute to improving communities and driving positive change."
-      ]
-
-    }
+        "Nebere is passionate about youth empowerment and plans to establish a local youth initiative in the near future, committed to community development, advocating for youth empowerment, human rights, inclusivity, and youth participation. As a goal-oriented and analytical individual, Nebere is always eager to contribute to improving communities and driving positive change.",
+      ],
+    },
   ];
 
   const coreValues = [
@@ -164,6 +169,7 @@ export default function GeneralProvider({ children }) {
     <GeneralContext.Provider
       value={{
         apiURL,
+        heroImages,
         coreValues,
         navOpen,
         setNavOpen,

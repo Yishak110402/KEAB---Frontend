@@ -5,6 +5,7 @@
     align-items: center;
     flex-flow: column;
     gap: 0rem;
+    perspective: 1000px;
 }
 .hero .hero-company-name{
     padding: 2rem 6rem;
@@ -17,12 +18,22 @@
 .hero .hero-image{
     width: 100vw;
     margin: 0 auto;
+    overflow: hidden;
 }
 .hero .hero-image img{
     width: 100vw;
     height: 90vh;
     object-fit: cover;
     filter: brightness(0.9);
+    animation: hero-img-zoom 7s forwards;
+}
+@keyframes hero-img-zoom{
+    0%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform:scale(1);
+    }
 }
 @media(max-width:1000px){
     .hero .hero-company-name{
