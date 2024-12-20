@@ -9,9 +9,10 @@
   gap: 2rem 1rem;
 }
 .teams-list > h1 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
   color: #185530;
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 .teams-list .member {
   width: 31%;
@@ -62,6 +63,7 @@
         width: 100%;
     }
     .teams-list > h1{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+        margin-top: 0;
     }
 }

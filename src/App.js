@@ -13,6 +13,7 @@ import News from "./pages/News";
 import OpenEvent from "./pages/OpenEvent";
 import Team from "./pages/Team";
 import OpenTeam from "./pages/OpenTeam";
+import ExecutiveMembers from "./components/Team/ExecutiveMembers/executiveMembers";
 
 export default function App() {
   return (
@@ -28,7 +29,7 @@ export default function App() {
             <Route element={<OpenEvent />} path="/events/:id" />
             <Route element={<News />} path="/news" /> 
             {/* <Route element={<Projects />} path = "/projects" /> */}
-            <Route element={<Team />} path="/team" />
+            <Route element={<ExecutiveMembers />} path="/founders" />
             <Route element={<OpenTeam />} path="/team/:id" />
             <Route
               element={<CompleteExecMessage />}
