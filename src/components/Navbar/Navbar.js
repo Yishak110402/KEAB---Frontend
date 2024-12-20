@@ -35,16 +35,31 @@ export default function Navbar() {
         <ul className="nav-links">
           <NavLink onClick={()=>(setNavOpen(false))} to="/">Home</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About us</NavLink>
-          <button href="#" onClick={()=>{
-            setNavOpen(false)
+          <button onClick={()=>{
+            // setNavOpen(false)
             setTeamNavOpen((n)=>(!n))
           }}>Team</button>
           <ul className={`teams-menu dropdown-menu ${teamNavOpen ? "open" : ""}`}>
-            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/founders'>Founders</NavLink>
-            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/boardmembers'>Board Members</NavLink>
-            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/advisoryteam'>Advisory Team</NavLink>
-            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/technologyteam'>Technology Team</NavLink>
-            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/supportteam'>Support Team</NavLink>
+            <NavLink onClick={()=>{
+              setTeamNavOpen(false)
+              setNavOpen(false)
+            }} to='/founders'>Founders</NavLink>
+            <NavLink onClick={()=>{
+              setTeamNavOpen(false)
+              setNavOpen(false)
+            }} to='/boardmembers'>Board Members</NavLink>
+            <NavLink onClick={()=>{
+              setTeamNavOpen(false)
+              setNavOpen(false)
+            }} to='/advisoryteam'>Advisory Team</NavLink>
+            <NavLink onClick={()=>{
+              setTeamNavOpen(false)
+              setNavOpen(false)
+            }} to='/technologyteam'>Technology Team</NavLink>
+            <NavLink onClick={()=>{
+              setTeamNavOpen(false)
+              setNavOpen(false)
+            }} to='/supportteam'>Support Team</NavLink>
           </ul>
           <NavLink onClick={()=>(setNavOpen(false))} to='/projects'>Projects</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to='/events'>Events</NavLink>

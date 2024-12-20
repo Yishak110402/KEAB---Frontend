@@ -99,12 +99,28 @@
         transform: translateX(-100%);
         transition: all 0.3s ease-out;
     }
-    .navbar .nav-links a{
+    .navbar .nav-links a, .navbar button{
         display: block;
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         text-align: center;
         padding-block: 0.7rem;
+        font-weight: 400;
+    }
+    .navbar .dropdown-menu{
+        position: static;
+        z-index: inherit;
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        display: none;
+        transition: all 0.2s ease;
+    }
+    .navbar .dropdown-menu.open{
+        display: flex;
+        transition: all 0.2s ease;
     }
     .navbar .nav-links a.active{
         background-color: #915c29;
