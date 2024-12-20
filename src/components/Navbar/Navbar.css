@@ -81,6 +81,7 @@
     }
     .navbar{
         flex-flow: row-reverse;
+        /* overflow: scroll; */
     }
     .navbar .nav-links{
         position: absolute;
@@ -94,6 +95,7 @@
         width: 70vw;
         height: 90vh;
         transition: all 0.3s ease-out;
+        overflow: scroll;
     }
     .navbar.closed .nav-links{
         transform: translateX(-100%);
