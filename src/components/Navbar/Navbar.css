@@ -108,6 +108,7 @@
         text-align: center;
         padding-block: 0.7rem;
         font-weight: 400;
+        border-radius: 6px;
     }
     .navbar .dropdown-menu{
         position: static;
