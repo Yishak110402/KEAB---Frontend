@@ -11,9 +11,12 @@ import Events from "./pages/Events";
 import News from "./pages/News";
 // import Projects from "./pages/Projects";
 import OpenEvent from "./pages/OpenEvent";
-import Team from "./pages/Team";
 import OpenTeam from "./pages/OpenTeam";
 import ExecutiveMembers from "./components/Team/ExecutiveMembers/executiveMembers";
+import AdvisoryTeam from "./components/Team/AdvisoryTeam/AdvisoryTeam";
+import TechnologyTeam from "./components/Team/TechnologyTeam/TechnologyTeam";
+
+import "./components/Team/TeamContainer/TeamContainer.css"
 
 export default function App() {
   return (
@@ -30,6 +33,8 @@ export default function App() {
             <Route element={<News />} path="/news" /> 
             {/* <Route element={<Projects />} path = "/projects" /> */}
             <Route element={<ExecutiveMembers />} path="/founders" />
+            <Route element={<AdvisoryTeam />} path="/advisoryteam" />
+            <Route element={<TechnologyTeam />} path="/technologyteam" />
             <Route element={<OpenTeam />} path="/team/:id" />
             <Route
               element={<CompleteExecMessage />}
