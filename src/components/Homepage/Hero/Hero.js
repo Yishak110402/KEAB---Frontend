@@ -11,7 +11,7 @@ export default function Hero() {
     return ()=>{
         clearInterval(imagesInterval)
     }
-  }, [currentImage]);
+  },[currentImage, heroImages.length]);
   return (
     <div className="hero">
       <div className="hero-company-name">

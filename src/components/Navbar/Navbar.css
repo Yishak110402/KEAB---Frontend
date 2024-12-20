@@ -30,10 +30,13 @@
     display: flex;
     gap: 2rem;
 }
-.navbar .nav-links a{
+.navbar .nav-links a, .navbar button{
     color: inherit;
     font-size: 1rem;
     text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 .navbar .nav-links a.active{
     text-decoration: underline;
@@ -47,7 +50,23 @@
     height: 40px;
     fill: #915c29;
 }
-
+.navbar .dropdown-menu{
+    position: absolute;
+    bottom: -3.25rem;
+    right: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    background-color: #915c29;
+    z-index: -100;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transform: translateY(-500%);
+    transition: all 0.2s ease;
+}
+.navbar .dropdown-menu.open{
+    transform: translateY(0);
+    transition: all 0.2s ease;
+}
 @media(max-width:900px){
     .navbar{
         padding-inline: 2rem;

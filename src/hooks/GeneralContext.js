@@ -5,6 +5,7 @@ export const GeneralContext = createContext();
 export default function GeneralProvider({ children }) {
   const apiURL = "https://keab-api.onrender.com";
   const [navOpen, setNavOpen] = useState(false);
+  const [teamNavOpen, setTeamNavOpen] = useState(false)
   const [events, setEvents] = useState([]);
   const [loadingEvent, setLoadingEvent] = useState(false);
   const [messageSending, setMessageSending] = useState(false);
@@ -18,7 +19,6 @@ export default function GeneralProvider({ children }) {
     "https://i.postimg.cc/qgVp1QtT/new-keab-hero.jpg",
     "https://i.postimg.cc/rsFMMHT9/hero-image-2.jpg",
     "https://i.postimg.cc/T2WZWG7W/hero-image-3.jpg",
-    // "https://i.postimg.cc/sxSqF9QJ/hero-image-4.jpg"
   ];
   const team = [
     {
@@ -180,6 +180,8 @@ export default function GeneralProvider({ children }) {
         events,
         loadingEvent,
         team,
+        teamNavOpen,
+        setTeamNavOpen
       }}>
       {children}
     </GeneralContext.Provider>

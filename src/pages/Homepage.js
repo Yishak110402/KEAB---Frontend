@@ -23,7 +23,7 @@ export default function Homepage() {
                 behavior:'instant'
             }
         )
-    })
+    },[apiURL])
     return (
         <>
             <Hero />

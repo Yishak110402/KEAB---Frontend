@@ -4,7 +4,7 @@ import { useContext, useEffect } from "react";
 import { GeneralContext } from "../../hooks/GeneralContext";
 
 export default function Navbar() {
-  const{navOpen, setNavOpen} = useContext(GeneralContext)
+  const{navOpen, setNavOpen, setTeamNavOpen, teamNavOpen} = useContext(GeneralContext)
   useEffect(function(){
     if (navOpen){
       document.body.style.overflow = 'hidden'
@@ -35,9 +35,18 @@ export default function Navbar() {
         <ul className="nav-links">
           <NavLink onClick={()=>(setNavOpen(false))} to="/">Home</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About us</NavLink>
-          <NavLink onClick={()=>(setNavOpen(false))} to='/team'>Team</NavLink>
+          <button href="#" onClick={()=>{
+            setNavOpen(false)
+            setTeamNavOpen((n)=>(!n))
+          }}>Team</button>
+          <ul className={`teams-menu dropdown-menu ${teamNavOpen ? "open" : ""}`}>
+            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/founders'>Founders</NavLink>
+            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/boardmembers'>Board Members</NavLink>
+            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/advisoryteam'>Advisory Team</NavLink>
+            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/technologyteam'>Technology Team</NavLink>
+            <NavLink onClick={()=>(setTeamNavOpen(false))} to='/supportteam'>Support Team</NavLink>
+          </ul>
           <NavLink onClick={()=>(setNavOpen(false))} to='/projects'>Projects</NavLink>
-          {/* <NavLink onClick={()=>(setNavOpen(false))} to='/news'>News</NavLink> */}
           <NavLink onClick={()=>(setNavOpen(false))} to='/events'>Events</NavLink>
           <NavLink onClick={()=>(setNavOpen(false))} to='/contact'>Contact</NavLink>
       
