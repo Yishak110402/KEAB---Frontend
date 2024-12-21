@@ -90,6 +90,17 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
+      name: "Dr. Tsion Assefa Desalegn (PhD)",
+      team:"board",
+      position:"Board Chairperson",
+      image:"https://i.postimg.cc/K8crsJDF/dr-tsion-bio.jpg",
+      description:[
+        "Dr. Tsion Assefa who is a Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. She has served as the OPD Case Team Coordinator at Abela Health Center for over three years. Additionally, she worked as a Nutrition Specialist and Public Health Emergency Management (PHEM) focal point at Wotera Hospital for four years. After completing my PhD, she joined Hawassa University as an Assistant Professor in the Department of Human Nutrition for six months, where she taught students and advised them on their research work.",
+        "Internationally, she interned with UNICEF’s Addis Ababa Office in the Nutrition Section, focusing on the Community-Based Nutrition Program. During this time, she contributed to the compilation and analysis of data for the published paper titled ‘Vitamin A Supplementation and Estimated Number of Averted Child Deaths in Ethiopia: 15 Years in Practice (2005–2019).’ She also participated in an international course on Epidemiology, Biostatistics, and Qualitative Research Methods at the University of Antwerp, Belgium.",
+        "Currently, she has worked as a Senior Technical Assistant in the Response and Recovery Directorate at the Public Health Emergency Management Center (PHEMc), Ethiopian Public Health Institute."
+      ]
+    },
+    {
       name:"Petros Gobaro Barrasa (LLB, MA)",
       team:"board",
       image:"https://i.postimg.cc/Mpvr4PdV/petros-gobaro-bio.jpg",
