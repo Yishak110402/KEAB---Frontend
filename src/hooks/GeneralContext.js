@@ -5,7 +5,7 @@ export const GeneralContext = createContext();
 export default function GeneralProvider({ children }) {
   const apiURL = "https://keab-api.onrender.com";
   const [navOpen, setNavOpen] = useState(false);
-  const [teamNavOpen, setTeamNavOpen] = useState(false)
+  const [teamNavOpen, setTeamNavOpen] = useState(false);
   const [events, setEvents] = useState([]);
   const [loadingEvent, setLoadingEvent] = useState(false);
   const [messageSending, setMessageSending] = useState(false);
@@ -90,29 +90,76 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
-      name: "Dr. Tsion Assefa Desalegn (PhD)",
-      team:"board",
-      position:"Board Chairperson",
-      image:"https://i.postimg.cc/K8crsJDF/dr-tsion-bio.jpg",
-      description:[
-        "Dr. Tsion Assefa who is a Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. She has served as the OPD Case Team Coordinator at Abela Health Center for over three years. Additionally, she worked as a Nutrition Specialist and Public Health Emergency Management (PHEM) focal point at Wotera Hospital for four years. After completing my PhD, she joined Hawassa University as an Assistant Professor in the Department of Human Nutrition for six months, where she taught students and advised them on their research work.",
-        "Internationally, she interned with UNICEF’s Addis Ababa Office in the Nutrition Section, focusing on the Community-Based Nutrition Program. During this time, she contributed to the compilation and analysis of data for the published paper titled ‘Vitamin A Supplementation and Estimated Number of Averted Child Deaths in Ethiopia: 15 Years in Practice (2005–2019).’ She also participated in an international course on Epidemiology, Biostatistics, and Qualitative Research Methods at the University of Antwerp, Belgium.",
-        "Currently, she has worked as a Senior Technical Assistant in the Response and Recovery Directorate at the Public Health Emergency Management Center (PHEMc), Ethiopian Public Health Institute."
-      ]
+      name: "Siyanne Mekonnen",
+      position: "Advisory Team",
+      team: "advisory",
+      image: "https://i.postimg.cc/2y9zsgjp/siyanne-mekonnen-bio.jpg",
+      description: [
+        "Siyanne Mekonnen Abebe is a freelance journalist and social work graduate reporting for local and international media, including The Washington Post. As former Editor-in-Chief of Addis Standard, Ethiopia’s leading English magazine, she led multilingual reporting and investigative stories.",
+        "Siyanne monitors humanitarian updates in Ethiopia and the Horn of Africa, with a focus on human rights and community development. She is also an alum of the U.S. State Department’s International Visitor Leadership Program (IVLP).",
+      ],
     },
     {
-      name:"Petros Gobaro Barrasa (LLB, MA)",
-      team:"board",
-      image:"https://i.postimg.cc/Mpvr4PdV/petros-gobaro-bio.jpg",
-      position:"Board Member",
-      description:[
+      name: "Dr. Tsion Assefa Desalegn (PhD)",
+      team: "board",
+      position: "Board Chairperson",
+      image: "https://i.postimg.cc/K8crsJDF/dr-tsion-bio.jpg",
+      description: [
+        "Dr. Tsion Assefa who is a Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. She has served as the OPD Case Team Coordinator at Abela Health Center for over three years. Additionally, she worked as a Nutrition Specialist and Public Health Emergency Management (PHEM) focal point at Wotera Hospital for four years. After completing my PhD, she joined Hawassa University as an Assistant Professor in the Department of Human Nutrition for six months, where she taught students and advised them on their research work.",
+        "Internationally, she interned with UNICEF’s Addis Ababa Office in the Nutrition Section, focusing on the Community-Based Nutrition Program. During this time, she contributed to the compilation and analysis of data for the published paper titled ‘Vitamin A Supplementation and Estimated Number of Averted Child Deaths in Ethiopia: 15 Years in Practice (2005–2019).’ She also participated in an international course on Epidemiology, Biostatistics, and Qualitative Research Methods at the University of Antwerp, Belgium.",
+        "Currently, she has worked as a Senior Technical Assistant in the Response and Recovery Directorate at the Public Health Emergency Management Center (PHEMc), Ethiopian Public Health Institute.",
+      ],
+    },
+    {
+      name: "Yosef Yotona Bode (BA, MA)",
+      image: "https://i.postimg.cc/N0SncWdR/yosef-yotona-bio.jpg",
+      position: "Vice Board Chairperson",
+      team: "board",
+      description: [
+        "Mr. Yosef who is a Vice Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. He has served as the Chairperson of Ethiopian Council of Gospel Believers Churches of Sidama National Regional State’s Branch Office.",
+        "Mr. Yosef experience at national level in Ethiopia as an Ethiopian Evangelical Church of Fellowship Chairperson and as an Ethiopian Evangelical Church of Rift Vally Mission Chairperson of Advisory Board and the Ethiopia Evangelical Robot Church Chairperson.",
+        "The Educational Background of Mr. Yosef is that she holds a Master of Arts in Management, where he also earned his Advanced Diploma and Bachelor of Management degree from Hawassa University. He also participated in an international course related to Leadership and Theology.",
+        "As the Vice Board Chairperson of KEABI Africa Community Development and Human Rights Organization, Mr. Yosef plays a pivotal role in steering the organization’s mission to promote community development, human rights, and sustainable development.",
+        "Previously, he has worked as worked in Hawassa City Administrations Municipality’s, head of the two departments (Land and Human Resources Departments).",
+        "His work experience and academic background provides a strong foundation for his work in advocating for peacebuilding’s, community development, and social justice",
+      ],
+    },
+    {
+      name: "Petros Gobaro Barrasa (LLB, MA)",
+      team: "board",
+      image: "https://i.postimg.cc/Mpvr4PdV/petros-gobaro-bio.jpg",
+      position: "Board Member",
+      description: [
         "Petros Gobaro is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Member of KEABI AFRICA Community Development and Human Rights Organization promote community-oriented development, human rights and social inclusion is achieved.",
         "Petros Gobaro holds a bachelor’s degree in laws, where he graduated with Great Distinction, earning an Excellent grade for his thesis.'  His academic achievements reflect his deep expertise and dedication to the field of law.",
         "Currently, Petros Gobaro serves as the President of the Central Sidaama Zone High Court. In this prominent role, he leads the judiciary with integrity and a steadfast commitment to delivering justice. His leadership is characterized by a strong adherence to ethical principles and a relentless pursuit of fair legal outcomes.",
         "In addition to his judicial roles, Petros Gobaro has been a strong advocate for ethical governance. He previously worked as the senior judge in different courts in Sidama Region.",
-        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia."
-      ]
-    }
+        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia.",
+      ],
+    },
+    {
+      name: "Addisu Petros Busha (BA, MBA)",
+      image: "https://i.postimg.cc/HLq6KbL2/addisu-petros-bio.jpg",
+      position: "Board Member",
+      team: "board",
+      description: [
+        "The Educational Background of Mr. Addisu includes is that she holds a Master of Business Administration from Paradise Valley University, Ethiopia where he also earned her bachelor’s degree in management form Samara University, Afar, Ethiopia and Certificate of IT-Computer Diploma, Keylink Technologies Plc, Ethiopia. His academic background provides a strong foundation for his work in advocating for legal reforms, human rights education, and social justice.",
+        "Mr. Addisu Petros Busha is a visionary young leader and has been working at Sidama National Regional State’s Hawassa City’s surround woreda in Ethiopia. He is known to me from the day he was hired in Sidama National Regional State Hawassa surrounding woreda. Besides, his works ethics, diligence and discipline are so worthy as he works hard to excel in his performance as per the norms of the organization",
+        "He is an active participant in Sidama National Regional State Hawassa surrounding woreda’s various department and office responsibilities at various capacities in Ethiopia. Also, he has received good compliments from his fellow staff and community because he has shown his ability to coordinate and give leadership.",
+        "As a Board Member of KEABI Africa Community Development and Human Rights Organization, he will be devoted to facilitating, mentoring, monitoring, leading, supervising, and motivating coworkers within multicultural settings.",
+      ],
+    },
+    {
+      name: "Yonas Yoseph",
+      image: "https://i.postimg.cc/PJY49nQJ/yonas-yoseph-bio.jpg",
+      position: "Board Member",
+      team: "board",
+      description: [
+        "Yonas Yoseph holds a Bachelor of Science in Public Health and a Master’s degree in Public Health. He has dedicated his career to improving healthcare services within the public sector, currently working at Motite Furra Primary Hospital, which began operations as a COVID-19 treatment center on December 17, 2012 E.C. Yonas joined the hospital shortly after its inception and played a crucial role in expanding its services beyond COVID-19, contributing to the hospital receiving its official license on October 24, 2014 E.C.",
+        "Throughout his professional journey, Yonas has taken on various leadership roles. He served as the Director of Nursing and Midwifery for two years, from which he developed strong leadership skills and gained invaluable experience. In February 2016, he transitioned to the hospital's quality unit as a Quality Officer, where he continues to ensure that high standards of care are maintained.",
+        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for health education and community development in Ethiopia",
+      ],
+    },
   ];
 
   const coreValues = [
@@ -205,7 +252,7 @@ export default function GeneralProvider({ children }) {
         loadingEvent,
         team,
         teamNavOpen,
-        setTeamNavOpen
+        setTeamNavOpen,
       }}>
       {children}
     </GeneralContext.Provider>
