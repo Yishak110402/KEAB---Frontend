@@ -60,11 +60,11 @@ export default function Projects() {
             </>
         ) : (
             <>
-                <ProjectsMainComponent
+                {/* <ProjectsMainComponent
                     setProjectDetail={setProjectDetail}
                     setSelectedProject={setSelectedProject}
                     projects={projects}
-                />
+                /> */}
             </>
         )}
     </div>

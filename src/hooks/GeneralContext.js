@@ -89,6 +89,19 @@ export default function GeneralProvider({ children }) {
         "Nebere is passionate about youth empowerment and plans to establish a local youth initiative in the near future, committed to community development, advocating for youth empowerment, human rights, inclusivity, and youth participation. As a goal-oriented and analytical individual, Nebere is always eager to contribute to improving communities and driving positive change.",
       ],
     },
+    {
+      name:"Petros Gobaro Barrasa (LLB, MA)",
+      team:"board",
+      image:"https://i.postimg.cc/Mpvr4PdV/petros-gobaro-bio.jpg",
+      position:"Board Member",
+      description:[
+        "Petros Gobaro is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Member of KEABI AFRICA Community Development and Human Rights Organization promote community-oriented development, human rights and social inclusion is achieved.",
+        "Petros Gobaro holds a bachelor’s degree in laws, where he graduated with Great Distinction, earning an Excellent grade for his thesis.'  His academic achievements reflect his deep expertise and dedication to the field of law.",
+        "Currently, Petros Gobaro serves as the President of the Central Sidaama Zone High Court. In this prominent role, he leads the judiciary with integrity and a steadfast commitment to delivering justice. His leadership is characterized by a strong adherence to ethical principles and a relentless pursuit of fair legal outcomes.",
+        "In addition to his judicial roles, Petros Gobaro has been a strong advocate for ethical governance. He previously worked as the senior judge in different courts in Sidama Region.",
+        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia."
+      ]
+    }
   ];
 
   const coreValues = [

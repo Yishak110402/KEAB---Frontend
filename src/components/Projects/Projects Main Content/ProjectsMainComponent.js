@@ -1,8 +1,4 @@
-// import { useState } from 'react'
 import './ProjectsMainComponent.css'
-
-// const arr=[1,2,3,4]
-
 export default function ProjectsMainComponent({setProjectDetail,setSelectedProject,projects}) {
 
 
@@ -32,7 +28,7 @@ export default function ProjectsMainComponent({setProjectDetail,setSelectedProje
                         <div className="project-card">
                               <img src="./assets/bootcamp 1.jpg" alt="img" />
                               <span>
-                                  <h4 className='title'>{projects[index].title}</h4>
+                                  <h4 className='title'>title</h4>
                                   <button onClick={()=>handleChange(index)}>Read more</button>
                               </span>
                       </div>

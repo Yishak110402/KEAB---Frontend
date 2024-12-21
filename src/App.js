@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import CompleteExecMessage from "./pages/CompleteExecMessage";
 import Events from "./pages/Events";
 import News from "./pages/News";
-// import Projects from "./pages/Projects";
 import OpenEvent from "./pages/OpenEvent";
 import OpenTeam from "./pages/OpenTeam";
 import ExecutiveMembers from "./components/Team/ExecutiveMembers/executiveMembers";
@@ -17,6 +16,7 @@ import AdvisoryTeam from "./components/Team/AdvisoryTeam/AdvisoryTeam";
 import TechnologyTeam from "./components/Team/TechnologyTeam/TechnologyTeam";
 
 import "./components/Team/TeamContainer/TeamContainer.css"
+import BoardMembers from "./components/Team/BoardMembers/BoardMembers";
 
 export default function App() {
   return (
@@ -30,10 +30,10 @@ export default function App() {
             <Route element={<Contact />} path="/contact" />
             <Route element={<Events />} path="/events" />
             <Route element={<OpenEvent />} path="/events/:id" />
-            <Route element={<News />} path="/news" /> 
-            {/* <Route element={<Projects />} path = "/projects" /> */}
+            <Route element={<News />} path="/news" />
             <Route element={<ExecutiveMembers />} path="/founders" />
             <Route element={<AdvisoryTeam />} path="/advisoryteam" />
+            <Route element={<BoardMembers />} path="/boardmembers" />
             <Route element={<TechnologyTeam />} path="/technologyteam" />
             <Route element={<OpenTeam />} path="/team/:id" />
             <Route
