@@ -15,6 +15,10 @@ export default function Navbar() {
       document.body.style.overflow = 'visible'
     }
   },[navOpen])
+  function handleNav(){
+    setNavOpen(false)
+    setTeamNavOpen(false)
+  }
   return (
     <>
       <div className="info">
@@ -33,37 +37,21 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className="nav-links">
-          <NavLink onClick={()=>(setNavOpen(false))} to="/">Home</NavLink>
-          <NavLink onClick={()=>(setNavOpen(false))} to="/aboutus">About us</NavLink>
+          <NavLink onClick={handleNav} to="/">Home</NavLink>
+          <NavLink onClick={handleNav} to="/aboutus">About us</NavLink>
           <button onClick={()=>{
-            // setNavOpen(false)
             setTeamNavOpen((n)=>(!n))
           }}>Team</button>
           <ul className={`teams-menu dropdown-menu ${teamNavOpen ? "open" : ""}`}>
-            <NavLink onClick={()=>{
-              setTeamNavOpen(false)
-              setNavOpen(false)
-            }} to='/founders'>Founders</NavLink>
-            <NavLink onClick={()=>{
-              setTeamNavOpen(false)
-              setNavOpen(false)
-            }} to='/boardmembers'>Board Members</NavLink>
-            <NavLink onClick={()=>{
-              setTeamNavOpen(false)
-              setNavOpen(false)
-            }} to='/advisoryteam'>Advisory Team</NavLink>
-            <NavLink onClick={()=>{
-              setTeamNavOpen(false)
-              setNavOpen(false)
-            }} to='/technologyteam'>Technology Team</NavLink>
-            <NavLink onClick={()=>{
-              setTeamNavOpen(false)
-              setNavOpen(false)
-            }} to='/supportteam'>Support Team</NavLink>
+            <NavLink onClick={handleNav} to='/founders'>Founders</NavLink>
+            <NavLink onClick={handleNav} to='/boardmembers'>Board Members</NavLink>
+            <NavLink onClick={handleNav} to='/advisoryteam'>Advisory Team</NavLink>
+            <NavLink onClick={handleNav} to='/technologyteam'>Technology Team</NavLink>
+            <NavLink onClick={handleNav} to='/supportteam'>Support Team</NavLink>
           </ul>
-          <NavLink onClick={()=>(setNavOpen(false))} to='/projects'>Projects</NavLink>
-          <NavLink onClick={()=>(setNavOpen(false))} to='/events'>Events</NavLink>
-          <NavLink onClick={()=>(setNavOpen(false))} to='/contact'>Contact</NavLink>
+          <NavLink onClick={handleNav} to='/projects'>Projects</NavLink>
+          <NavLink onClick={handleNav} to='/events'>Events</NavLink>
+          <NavLink onClick={handleNav} to='/contact'>Contact</NavLink>
       
         </ul>
         <div className="hamburger">
