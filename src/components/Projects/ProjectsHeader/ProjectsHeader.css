@@ -1,0 +1,33 @@
+.projects-header{
+    padding: 2rem 6rem;
+    color: #915c29;
+}
+.projects-header h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.projects-header h3{
+    font-size: 1.8rem;
+}
+@media(max-width:1000px){
+    .projects-header{
+        padding: 2rem;
+    }
+    .projects-header h1{
+        font-size: 2.4rem;
+    }
+    .projects-header h3{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:550px){
+    .projects-header{
+        padding: 2rem 1rem;
+    }
+    .projects-header h1{
+        font-size: 1.8rem;
+    }
+    .projects-header h3{
+        font-size: 1rem;
+    }
+}
