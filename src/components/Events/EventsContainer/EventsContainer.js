@@ -19,7 +19,7 @@ export default function EventsContainer() {
       {
         loadingEvent && (
             <div className="loader">
-                <img src="https://i.postimg.cc/nLDxSvRj/KEAB-logo.jpg" alt="KEAB Logo" />
+                <img src="https://i.postimg.cc/9QP2MTv1/editted-logo.jpg" alt="KEAB Logo" />
             </div>
         )
       }

@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="logo">
           <Link to="/">
             <img
-              src="https://i.postimg.cc/nLDxSvRj/KEAB-logo.jpg"
+              src="https://i.postimg.cc/9QP2MTv1/editted-logo.jpg"
               alt="KEAB Logo"
             />
           </Link>

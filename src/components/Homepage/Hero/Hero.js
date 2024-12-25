@@ -16,7 +16,7 @@ export default function Hero() {
     <div className="hero">
       <div className="hero-company-name">
         <h1>
-          Welcome to KEABI Africa Community Development and Human Rights
+          Welcome to KEAB Africa Community Development and Human Rights
           Organization (KACDHRO)
         </h1>
       </div>

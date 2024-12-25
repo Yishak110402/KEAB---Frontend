@@ -28,24 +28,24 @@ export default function GeneralProvider({ children }) {
       image: "https://i.postimg.cc/prLGNbnY/yohanan-bio-image.jpg",
       team: "executive",
       description: [
-        "Mr. Yohanan Yokamo Yotona is a visionary leader and an inspiring advocate for human rights, peacebuilding, and community development. As the Founder and Executive Director of KEABI Africa Community Development and Human Rights Organization (KACDHRO), he brings a wealth of academic expertise, professional experience, and a deep commitment to advancing community development, social justice, and inclusion.",
+        "Mr. Yohanan Yokamo Yotona is a visionary leader and an inspiring advocate for human rights, peacebuilding, and community development. As the Founder and Executive Director of KEAB Africa Community Development and Human Rights Organization (KACDHRO), he brings a wealth of academic expertise, professional experience, and a deep commitment to advancing community development, social justice, and inclusion.",
         "Mr. Yohanan is currently a Ph.D. Fellow in Community Development at Hawassa University, where his research focuses on sustainable solutions to enhance community development, resilience, and inclusion. He holds multiple academic honors, including a Bachelor of Science in Civil Engineering with distinction from US College, Ethiopia, as well as a Bachelor of Laws (LLB) and Master of Laws (LLM) with great distinction from Hawassa University.",
         "Throughout his career, Mr. Yohanan has held diverse leadership roles that demonstrate his dedication to fostering positive change. As the former Director of the International Relations and Alumni Affairs Directorate at Hawassa University, he strengthened institutional partnerships and fostered alumni engagement. In his role as the Coordinator of the Public Diplomacy Center at Hawassa University, he facilitated dialogue and collaboration to address pressing global and local issues. Earlier in his career, he served as an intern prosecutor, counselor, and officer at the Southern Nations, Nationalities, and Peoples’ Ethics and Anti-Corruption Commission, where he championed transparency, accountability, and ethical governance.",
         "Mr. Yohanan has represented Ethiopia on the international stage through numerous prestigious fellowships and programs. He completed the International Visitor Leadership Program (IVLP) Fellowship sponsored by the U.S. Department of State and participated in the Visiting Canada Global Affairs Scholarship at the University of Saskatchewan. Additionally, he earned certifications for attending International Staff Week at the University of Giessen in Germany in 2022, Academic Staff Mobility at Valladolid University in South Spain in 2021, and International Staff Week at the Public University of Navarra in North Spain in 2022. He also attended a training organized by the African Union to empower youth to combat corruption in Botswana in 2017. These global experiences have enriched his understanding of governance, diplomacy, and the importance of fostering partnerships to advance human rights and sustainable development.",
         "As an expert in human rights advocacy, Mr. Yohanan is deeply passionate about protecting vulnerable communities and promoting inclusion. His extensive work in peacebuilding focuses on developing strategies to address conflicts and promote social cohesion. He is an advocate for the rule of law and good governance, consistently promoting transparency, justice, and ethical leadership. His community development initiatives are designed to empower local communities through sustainable programs. His proficiency in international relations and diplomacy has enabled him to forge collaborations that address complex global challenges effectively.",
         "Mr. Yohanan also contributes to various pro bono activities and affiliations, further demonstrating his commitment to service. He has volunteered with UNICEF at the University of Saskatchewan in Canada and actively participates in the academic committee at Hawassa University’s College of Law and Governance. He is a member of the Southern Youth Professional Association in Hawassa, a research fellow with the Young African Leaders Initiative Network (YALINET), and an active participant in the HU Free Legal Aid Center and the Law Student Association at Hawassa University. Additionally, he is a member of the Ethics and Anti-Corruption Association in Hawassa.",
-        "Guided by a vision to create a society where every individual, regardless of their background or circumstances, enjoys equal rights and opportunities, Mr. Yohanan leads transformative initiatives through KEABI Africa Community Development and Human Rights Organization. These initiatives encompass community-centered development programs, free legal aid services, human rights education, and advocacy efforts aimed at addressing systemic inequalities and empowering vulnerable groups. His unwavering commitment to sustainable development, democracy, justice, and inclusion continues to inspire transformative change in Ethiopia and beyond.",
+        "Guided by a vision to create a society where every individual, regardless of their background or circumstances, enjoys equal rights and opportunities, Mr. Yohanan leads transformative initiatives through KEAB Africa Community Development and Human Rights Organization. These initiatives encompass community-centered development programs, free legal aid services, human rights education, and advocacy efforts aimed at addressing systemic inequalities and empowering vulnerable groups. His unwavering commitment to sustainable development, democracy, justice, and inclusion continues to inspire transformative change in Ethiopia and beyond.",
       ],
     },
     {
       name: "Woyesa Woka Worana",
       position:
-        "Country Director of HALE-Human Rights & Inclusion Network (H-HRIN) | Human Rights Lawyer | Co-Founder of KEABI Africa Community Development and Human Rights Organization",
+        "Country Director of HALE-Human Rights & Inclusion Network (H-HRIN) | Human Rights Lawyer | Co-Founder of KEAB Africa Community Development and Human Rights Organization",
       image: "https://i.postimg.cc/9X6Z5Bhv/woyessa-bio-photo.jpg",
       team: "executive",
       description: [
         "Woyesa is a dedicated human rights lawyer and advocate for climate justice, peace, gender equality, and inclusion. As the Country Director of HALE-Human Rights & Inclusion Network (H-HRIN), he leads initiatives promoting social justice, sustainability, and human rights across Ethiopia and beyond.",
-        "As Co-Founder of  KEABI Africa Community Development and Human Rights Organization, Woyesa is committed to advancing sustainable development and protecting the rights of marginalized communities, working tirelessly to create a more just, inclusive, and sustainable world.",
+        "As Co-Founder of  KEAB Africa Community Development and Human Rights Organization, Woyesa is committed to advancing sustainable development and protecting the rights of marginalized communities, working tirelessly to create a more just, inclusive, and sustainable world.",
       ],
     },
     {
@@ -54,7 +54,7 @@ export default function GeneralProvider({ children }) {
       image: "https://i.postimg.cc/DZmLFjmK/bereket-bio-image.jpg",
       team: "executive",
       description: [
-        "Bereket Yosef Sunkura (BA, MBA) is a visionary leader and an inspiring advocate for peacebuilding, women empowerment, humanitarian initiatives, and community development. As the Founder of KEABI Africa Community Development and Human Rights Organization (KACDHRO), she brings a wealth of expertise and dedication to advancing social justice and collective progress.",
+        "Bereket Yosef Sunkura (BA, MBA) is a visionary leader and an inspiring advocate for peacebuilding, women empowerment, humanitarian initiatives, and community development. As the Founder of KEAB Africa Community Development and Human Rights Organization (KACDHRO), she brings a wealth of expertise and dedication to advancing social justice and collective progress.",
         "Mrs. Bereket has achieved multiple academic milestones, including a Bachelor of Arts in Accounting and Finance and a Master of Business Administration. In addition, she earned a diploma in computer skills from Ethiopia, showcasing her commitment to both academic excellence and practical proficiency.",
         "Her professional journey encompasses diverse leadership roles that demonstrate her dedication to service and development. She served as the Head of the Women’s League in the Hayik Dar Sub City of the Hawassa City Administration and as Vice CEO of the Hawassa Bread and Flour Enterprise. She also coordinated the Public Library in Hawassa City and worked in the Youth Sport and Local Development Office. In addition, Mrs. Bereket actively participates as a member of the Hawassa City Women for Development Association.",
         "Her achievements are further complemented by certifications and recognitions that underline her contributions to community development. She has received a Certificate of Participation from the Hawassa Women, Children, and Youth Affairs Bureau and the Hawassa City Administration. Furthermore, she has completed courses on business entrepreneurship, reflecting her ongoing commitment to skill enhancement and leadership development.",
@@ -62,6 +62,18 @@ export default function GeneralProvider({ children }) {
         "Her vision and commitment reflect her strong foundation in community engagement and leadership. With a good command of essential software programs and a relentless drive to work with organizations dedicated to community development and human rights, she seeks to create impactful advocacy programs that address systemic inequalities and empower vulnerable groups.",
         "Mrs. Bereket is dedicated to fulfilling her duties and responsibilities with honesty and passion, aligning her work with the mission of advancing social justice and development. She expresses her gratitude to those who take the time to review her profile, highlighting her enthusiasm and readiness to contribute meaningfully to the cause of community development and human rights.",
       ],
+    },
+    {
+      name:"Betelhem Mekonen (BA, BSc, Social Anthropologist)",
+      position:"Co-founder",
+      image:"https://i.postimg.cc/P5SDBL2V/betty-bio.jpg",
+      team:"executive",
+      description:[
+        "Mrs. Betelhem who is an Advisory Team of KEAB Africa Community Development and Human Rights Organization works as a co-funder of the organization plays a Gender Equality & Human Rights Advocate and Researcher and a Community Impact Leader.",
+        "The Educational Background of Mrs. Betelhem is that she holds a bachelor’s degree in social Anthropology from Wollo University in Ethiopia in 2017 and additional she holds Bachelor of Art in Finance too. Her academic background provides a strong foundation for her work in advocating for community development, women and Childs education, and social empowerments.",
+        "In her professional career, Mr. Betelhem has served in different positions that she worked as a Social Worker in Compassion Ethiopia. Also, she worked as customer service officer in Vision Fund F. Institutes, S.C. Her main role was achieving the Company’s main target that is supporting mothers and children in the lower stratum of the society, she has passionately and devotedly served to support such people. Additionally, she is a member of Pastoral Leadership Committee, Teaching and Moulding Children as well as participating in the Charity activities in the society. Mrs. Betelhem’s previous roles further highlight her commitment to social change and community empowerment.",
+        "As the co-founder of KEAB Africa Community Development and Human Rights Organization, Mrs. Betelhem with unwavering commitment plays a pivotal role in steering the organization’s mission to promote community development, human rights, social inclusion, and gender equality across Ethiopia."
+      ]
     },
     {
       name: "Natnael Ashenafi Getahun (Bsc,Msc)",
@@ -78,9 +90,61 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
+      name:"Mihiretu Samuel Gabara (BSc)",
+      team:"technology",
+      position:"Technology Team",
+      image:"https://i.postimg.cc/Y9Mh0MnL/mihretu-bio.jpg",
+      description:[
+        "Mr. Mihiretu as a Technology Team member of KEAB Africa Community Development and Human Rights Organization, he has sufficing knowledge related to computer and technology works.",
+        "He is experienced with different softwares like Microsoft word, Microsoft excel, Microsoft PowerPoint, Adobe, the internet online apps and others.  So far his related experience, he has an experience of computer maintenance at Wonji St. Mary Catholic Church in Ethiopia. He is surfing the internet for up-to-date information, news and new technology.",
+        "Mr. Mihiretu who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, works with great commitment and passion for technology ."
+      ]
+    },
+    { 
+      name:"Dr. Sivakumar Somasundaram",
+      image:"https://i.postimg.cc/5yty5pMx/dr-sivar.jpg",
+      team:"advisory",
+      position:"Advisory Team",
+      description:[
+        "the School of Governance and Development Management of Hawassa University,Ethiopia. He is an academic activist born in Namakkal, Tamil Nadu, India. He pursued his master's (M.A. in Development Administration) and Doctoral program (Public Administration) at Gandhigram Rural University, Dindigul, Tamil Nadu. He has been coordinating the activities of six Master Programs as a coordinator of PG programs at the school. He specializes in Development Management, Human Resource Management, Project Planning and Management, Policy Making and Analysis, and Governance and Development Management. He has sixteen years of experience in teaching, research, and outreach programs. He has been at Hawassa University since 2008. He is solid in all three aspects of higher education: teaching, research, and extension/ community service activities. He has designed and introduced two innovative Master's programs, one in Development Management and the other in Governance and Development, and both programs are supported by the Ministry of Education, Ethiopia. He has been serving as a member of the Board of Studies and as an External examiner for the following Ethiopian Universities: Jimma University, Ambo University, Wolaita Sodo University, Arba Minch University, Dilla University, and Civil Service University.",
+        "He has also been Serving as a Board of Examiner (as an External Examiner) for the adjudication of Ph.D. thesis of the following universities of India, namely, the University of Madras, Chennai, Tamil Nadu, The Gandhigram Rural Institute- Deemed University, Annamalai University, Bharathidasan University, Bharathiyar University, Azhagappa University and Periyar University. He also serves as a secretary of the School Graduate Committee and a standing member of the School Staff Promotion Committee.",
+        "He has published seven books and thirty-nine articles in referred journals. He has presented at Twenty-five International Conferences, fifteen National Programmes, twenty Regional Seminars and Conferences, and thirty-five invited talks in India and abroad. He acted as a resource person for forty-one national and International Conferences in India.",
+        "Mercy Corps, Oxfam, and World Vision Ethiopia and collaborated with them to prepare Project Proposals and monitoring and Evaluation activities, including the preparation of log frames",
+        "He has been conducting various training programs as a part of community services from Hawassa University for the cabinet ministers of the Regional State and other sectoral bureaus of the South Nation Nationalities and Regional State and Sidaama Regional State of Ethiopia. He has been serving as the editor-in-chief for the International Journal known as 'The Ethiopian Journal of Governance and Development' (EJGD). Furthermore, he has been serving as the convenor from Hawassa University for the Indian Education Forum of the Embassy of India in Ethiopia. He has organized various programs of the Embassy in and around the university."
+      ]
+    },
+    {
+      name:"Ruth Seifu Mola (LLB, LLM, MA)",
+      position:"Advisory Team",
+      image:"https://i.postimg.cc/mrRbNVQ0/rutu-bio.jpg",
+      team:"advisory",
+      description:[
+        "The Educational Background of Ruti Seifu is that she holds a master’s in international human Rights Law, where she also earned her Bachelor of Laws (LLB) degree and also another master’s in political science and international Relations and also holds an Advanced certificate in Leadership and Administration",
+        "In her professional career, she has been serving as head of filed unit of United Nations High Commissioner for Refugees (UNHCR). She monitors and reports on the implementation of refugee conventional responsibilities and international obligations of the local authorities vis-à-vis the population of concern to UNHCR within the AOR. And she advocates and promote UNHCR standards concerning the treatment of persons of concern. Further she ensures that the basic needs of the concerned population are properly assessed with the participation of the beneficiaries themselves, the host governments and/or the competent Implementing partners and/or UNHCR itself. Subject to the needs, ensure that the planning, formulation and budgeting of identified assistance projects are done as per UNHCR programme cycle; upon approval of assistance project, she ensures the timely implementation and monitoring of identified assistance activities.",
+        "Rutu has unwavering commitment to human rights, gender equality, and sustainable development continues to inspire her work at KEAB Africa Community Development and Human Rights Organization, where she strives to create a developed community and inclusion of human rights",
+        "Ruti has represented Ethiopia on the international stage, completing prestigious programs such as: International Visitor Leadership Program (IVLP) Fellowship by the U.S. Department of State, USA.",
+        "As the advisory Team of KEAB Africa Community Development and Human Rights Organization, Ruti plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia."
+      ]
+    },
+    {
+      name:"Dansita Asefa Adela (LLB, MA)",
+      position:"Advisory Team",
+      image:"https://i.postimg.cc/zGyWYz6J/dansita-bio.jpg",
+      team:"advisory",
+      description:[
+        "The Advisory Team of KEAB Africa Community Development and Human Rights Organization, Mr. Dansita who is a Gender Equality & Human Rights Advocate and Researcher and also a Social Impact Leader.",
+        "Mrs. Dansita Asefa experience as a former Lecturer at Hawassa University, School of Law, and as a Human Rights Volunteer at the Hawassa University Legal Aid Center, reflects her dedication to education and capacity building in the legal and development field. Mrs. Dansita’s work in academia and her volunteer efforts have contributed to the development of future legal professionals and the provision of essential legal services to marginalized communities. Mrs. Dansita is a distinguished researcher and advocate with extensive experience in the fields of human rights, gender equality, and sustainable development.",
+        "As the advisory Team of KEAB Africa Community Development and Human Rights Organization, Dansita plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia.",
+        "The Educational Background of Mrs. Dansita is that she holds a Master of Arts in International Relations and Foreign Diplomacy from the College of Law and Governance at Hawassa University, where she also earned her Bachelor of Laws (LLB) degree. Her academic background provides a strong foundation for her work in advocating for legal reforms, human rights education, and social justice.",
+        "In her professional career, Dansita has served as the Regional Director at the Ethiopian Women Lawyers Association (EWLA), where she led initiatives aimed at empowering women and advancing their legal rights. Her leadership in this role has been instrumental in driving gender-sensitive legal practices and supporting vulnerable women through legal aid and advocacy.",
+        "Mrs. Dansita’s previous roles further highlight her commitment to social change and legal empowerment. As a Project Officer at the Resource Centre for Sustainable Change (RCSC), she coordinated projects focused on sustainable development and community empowerment. Additionally, she served as the Focal Person for Gender Mainstreaming at the Sidama Industrial Parks Development Corporation, where she worked to integrate gender perspectives into development projects and policies.",
+        "Mrs. Dansita’s unwavering commitment to human rights, gender equality, and sustainable development continues to inspire her work at KEAB Africa Community Development and Human Rights Organization, where she strives to create a developed community and inclusion of human rights."
+      ]
+    },
+    {
       name: "Nebere Elias",
       image: "https://i.postimg.cc/k5BFJC7T/nebere-elias-bio.jpg",
-      position: "Advisory Team member",
+      position: "Advisory Team",
       team: "advisory",
       description: [
         "Nebere Elias is a 30 year-old health professional with an MSc in Advanced Cardiovascular Nurse Practitioner . He is an active member of the Young African Leadership Initiative (YALI) RLC East Africa Alumni and serves as an Ambassador for the 6th edition of the International Youth Conference. Nebere works as a government/Public/NGO/private institutions -employed and held different leadership Positions at Healthcare Facilities started from providing care,  holds the position of  Clinical Governance and Quality Improvements Officer of the hospital, Currently CEO of Dr Solomon Memorial Primary Hospital,  and  also volunteer at community , American Corners .",
@@ -100,12 +164,24 @@ export default function GeneralProvider({ children }) {
       ],
     },
     {
+      name:"Mulugeta Woldetsadik",
+      image:"https://i.postimg.cc/4d0kM194/mulugeta-bio.jpg",
+      position:"Advisory team",
+      team:"advisory",
+      description:[
+        "Mulugeta Woldetsadik, a seasoned Librarian and Information Professional from Ethiopia, brings over three decades of experience in Library and Information Science, spanning educational institutions from schools to universities.",
+        "Currently, he serves as the coordinator of partnership projects at Hawassa University, collaborating with organizations like Books For Africa (BFA) and Book Aid International (BAI) to enhance access to educational resources for underserved communities in Ethiopia's Sidama region. He also works with the International Law Book Facility (ILBF), contributing to the development of exemplary libraries in higher education institutions across Ethiopia.",
+        "In addition, Mulugeta is a team member of Librarian Spotlight Africa (LSA), where he participates and contributes in his role as Coordinator for Partnership and Community Engagement.",
+        "Honored as the Librarian of the Month for August 2024 by the African Librarian Spotlight Program, Mulugeta is a dedicated advocate for community-centered initiatives, Open Access, and Open Educational Resources (OER). Through international collaborations and his blog, 21st Century INFOLIBNET, he champions the role of libraries as essential hubs of knowledge and development in the digital age, driven by his commitment to bridging the gap between information accessibility and community needs."
+      ]
+    },
+    {
       name: "Dr. Tsion Assefa Desalegn (PhD)",
       team: "board",
       position: "Board Chairperson",
       image: "https://i.postimg.cc/K8crsJDF/dr-tsion-bio.jpg",
       description: [
-        "Dr. Tsion Assefa who is a Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. She has served as the OPD Case Team Coordinator at Abela Health Center for over three years. Additionally, she worked as a Nutrition Specialist and Public Health Emergency Management (PHEM) focal point at Wotera Hospital for four years. After completing my PhD, she joined Hawassa University as an Assistant Professor in the Department of Human Nutrition for six months, where she taught students and advised them on their research work.",
+        "Dr. Tsion Assefa who is a Board Chairperson of KEAB AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. She has served as the OPD Case Team Coordinator at Abela Health Center for over three years. Additionally, she worked as a Nutrition Specialist and Public Health Emergency Management (PHEM) focal point at Wotera Hospital for four years. After completing my PhD, she joined Hawassa University as an Assistant Professor in the Department of Human Nutrition for six months, where she taught students and advised them on their research work.",
         "Internationally, she interned with UNICEF’s Addis Ababa Office in the Nutrition Section, focusing on the Community-Based Nutrition Program. During this time, she contributed to the compilation and analysis of data for the published paper titled ‘Vitamin A Supplementation and Estimated Number of Averted Child Deaths in Ethiopia: 15 Years in Practice (2005–2019).’ She also participated in an international course on Epidemiology, Biostatistics, and Qualitative Research Methods at the University of Antwerp, Belgium.",
         "Currently, she has worked as a Senior Technical Assistant in the Response and Recovery Directorate at the Public Health Emergency Management Center (PHEMc), Ethiopian Public Health Institute.",
       ],
@@ -116,10 +192,10 @@ export default function GeneralProvider({ children }) {
       position: "Vice Board Chairperson",
       team: "board",
       description: [
-        "Mr. Yosef who is a Vice Board Chairperson of KEABI AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. He has served as the Chairperson of Ethiopian Council of Gospel Believers Churches of Sidama National Regional State’s Branch Office.",
+        "Mr. Yosef who is a Vice Board Chairperson of KEAB AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. He has served as the Chairperson of Ethiopian Council of Gospel Believers Churches of Sidama National Regional State’s Branch Office.",
         "Mr. Yosef experience at national level in Ethiopia as an Ethiopian Evangelical Church of Fellowship Chairperson and as an Ethiopian Evangelical Church of Rift Vally Mission Chairperson of Advisory Board and the Ethiopia Evangelical Robot Church Chairperson.",
-        "The Educational Background of Mr. Yosef is that she holds a Master of Arts in Management, where he also earned his Advanced Diploma and Bachelor of Management degree from Hawassa University. He also participated in an international course related to Leadership and Theology.",
-        "As the Vice Board Chairperson of KEABI Africa Community Development and Human Rights Organization, Mr. Yosef plays a pivotal role in steering the organization’s mission to promote community development, human rights, and sustainable development.",
+        "The Educational Background of Mr. Yosef is that he holds a Master of Arts in Management, where he also earned his Advanced Diploma and Bachelor of Management degree from Hawassa University. He also participated in an international course related to Leadership and Theology.",
+        "As the Vice Board Chairperson of KEAB Africa Community Development and Human Rights Organization, Mr. Yosef plays a pivotal role in steering the organization’s mission to promote community development, human rights, and sustainable development.",
         "Previously, he has worked as worked in Hawassa City Administrations Municipality’s, head of the two departments (Land and Human Resources Departments).",
         "His work experience and academic background provides a strong foundation for his work in advocating for peacebuilding’s, community development, and social justice",
       ],
@@ -130,11 +206,11 @@ export default function GeneralProvider({ children }) {
       image: "https://i.postimg.cc/Mpvr4PdV/petros-gobaro-bio.jpg",
       position: "Board Member",
       description: [
-        "Petros Gobaro is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Member of KEABI AFRICA Community Development and Human Rights Organization promote community-oriented development, human rights and social inclusion is achieved.",
+        "Petros Gobaro is a distinguished legal professional and jurist with a profound commitment to justice, ethics, and human rights in Ethiopia. As the Board Member of KEAB AFRICA Community Development and Human Rights Organization promote community-oriented development, human rights and social inclusion is achieved.",
         "Petros Gobaro holds a bachelor’s degree in laws, where he graduated with Great Distinction, earning an Excellent grade for his thesis.'  His academic achievements reflect his deep expertise and dedication to the field of law.",
         "Currently, Petros Gobaro serves as the President of the Central Sidaama Zone High Court. In this prominent role, he leads the judiciary with integrity and a steadfast commitment to delivering justice. His leadership is characterized by a strong adherence to ethical principles and a relentless pursuit of fair legal outcomes.",
         "In addition to his judicial roles, Petros Gobaro has been a strong advocate for ethical governance. He previously worked as the senior judge in different courts in Sidama Region.",
-        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia.",
+        "As the Board Member of KEAB AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for justice, and a commitment to ethical leadership. His guidance is vital to the organization’s efforts to advance human rights, foster social inclusion, and uphold the rule of law in Ethiopia.",
       ],
     },
     {
@@ -146,7 +222,7 @@ export default function GeneralProvider({ children }) {
         "The Educational Background of Mr. Addisu includes is that she holds a Master of Business Administration from Paradise Valley University, Ethiopia where he also earned her bachelor’s degree in management form Samara University, Afar, Ethiopia and Certificate of IT-Computer Diploma, Keylink Technologies Plc, Ethiopia. His academic background provides a strong foundation for his work in advocating for legal reforms, human rights education, and social justice.",
         "Mr. Addisu Petros Busha is a visionary young leader and has been working at Sidama National Regional State’s Hawassa City’s surround woreda in Ethiopia. He is known to me from the day he was hired in Sidama National Regional State Hawassa surrounding woreda. Besides, his works ethics, diligence and discipline are so worthy as he works hard to excel in his performance as per the norms of the organization",
         "He is an active participant in Sidama National Regional State Hawassa surrounding woreda’s various department and office responsibilities at various capacities in Ethiopia. Also, he has received good compliments from his fellow staff and community because he has shown his ability to coordinate and give leadership.",
-        "As a Board Member of KEABI Africa Community Development and Human Rights Organization, he will be devoted to facilitating, mentoring, monitoring, leading, supervising, and motivating coworkers within multicultural settings.",
+        "As a Board Member of KEAB Africa Community Development and Human Rights Organization, he will be devoted to facilitating, mentoring, monitoring, leading, supervising, and motivating coworkers within multicultural settings.",
       ],
     },
     {
@@ -157,7 +233,7 @@ export default function GeneralProvider({ children }) {
       description: [
         "Yonas Yoseph holds a Bachelor of Science in Public Health and a Master’s degree in Public Health. He has dedicated his career to improving healthcare services within the public sector, currently working at Motite Furra Primary Hospital, which began operations as a COVID-19 treatment center on December 17, 2012 E.C. Yonas joined the hospital shortly after its inception and played a crucial role in expanding its services beyond COVID-19, contributing to the hospital receiving its official license on October 24, 2014 E.C.",
         "Throughout his professional journey, Yonas has taken on various leadership roles. He served as the Director of Nursing and Midwifery for two years, from which he developed strong leadership skills and gained invaluable experience. In February 2016, he transitioned to the hospital's quality unit as a Quality Officer, where he continues to ensure that high standards of care are maintained.",
-        "As the Board Member of KEABI AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for health education and community development in Ethiopia",
+        "As the Board Member of KEAB AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for health education and community development in Ethiopia",
       ],
     },
   ];
