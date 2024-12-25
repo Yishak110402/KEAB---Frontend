@@ -142,6 +142,16 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Essey Petros",
+      team:"advisory",
+      image:"https://i.postimg.cc/SRX2FV1g/essey-bio.jpg",
+      position:"Advisory Team",
+      description:[
+        "Essey Petros is an LLB candidate at Hawassa University, dedicated to advancing human rights and social justice. As an Advisory Team of KEABI AFRICA Community Development and Human Rights Organization, he works to promote a just and inclusive society.",
+        "He serves as President of the Hawassa University Student Union, leading initiatives that empower students, and as Vice President of the Ethiopian Higher Education Institutions Student Union, advocating for student rights nationally. Additionally, Essey founded the Tesfa Counseling Association to provide essential support to those in need, demonstrating his commitment to community impact. His leadership and dedication make him a vital asset to the organizations he represents."
+      ]
+    },
+    {
       name: "Nebere Elias",
       image: "https://i.postimg.cc/k5BFJC7T/nebere-elias-bio.jpg",
       position: "Advisory Team",
