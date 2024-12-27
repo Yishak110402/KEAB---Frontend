@@ -278,6 +278,22 @@ export default function GeneralProvider({ children }) {
 
 const projects = [
   {
+    name:"Strengthening Democracy and Promotion of Good Governance Bootcamp for selected Young Leaders in Hawassa City Administration, Ethiopia",
+    images:[
+      "https://i.postimg.cc/FsvmTSs3/project2-img1.jpg",
+      "https://i.postimg.cc/CMkSC7Yw/project2-img2.jpg",
+      "https://i.postimg.cc/mDFR5NHN/project2-img4.jpg",
+      "https://i.postimg.cc/kG3936Nr/project2-img5.jpg",
+      "https://i.postimg.cc/CxFhxq3S/project2-img6.jpg",
+      "https://i.postimg.cc/x1t0JdQH/project2-img7.jpg",
+      "https://i.postimg.cc/5tyfwM9r/project2-img8.jpg"
+    ],
+    description:[
+      "The goal of this project is to create a platform for young leaders to learn and engage with fundamental concepts of democracy and good governance. It aims to strengthen democracy and promote positive governance practices among selected young leaders in Hawassa City through targeted capacity-building training. By focusing on these young individuals, the project endeavors to prepare them to contribute meaningfully to accountable state institutions and processes, fostering a generation of responsible and informed leaders.",
+      "Specifically, the project seeks to build young leaders’ skills in several critical areas, including interpersonal relationships, conflict management, solidarity, and tolerance. It emphasizes transparency, responsibility, accountability, participation, and responsiveness to community needs, equipping participants with the tools to address real-world challenges effectively. The training also highlights the importance of human rights and the rule of law, helping young leaders to envision a better future for themselves and their communities. Through fostering a positive self-concept, goal-setting, and vision development, the project motivates and inspires young leaders to aspire for meaningful change and overcome obstacles with resilience and optimism."
+    ]
+  },
+  {
     name:"KEAB Community Library And Information Center in Sidama National Regional State, Ethiopia",
     images:[
       "https://i.postimg.cc/65vbSbqm/project1-img1.jpg",

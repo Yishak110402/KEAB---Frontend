@@ -1,9 +1,65 @@
 .projects-container{
     padding: 2rem 6rem;
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 .project{
     background-position: center;
     background-size: cover;
-    width: 50vw;
+    width: 100%;
+    padding: 5rem 1rem;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.project h1{
+    color: #f7f7f7;
+    margin-bottom: 2.5rem;
+}
+.project *{
+    position: relative;
+    z-index: 10;
+}
+.project .shade{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+}
+.project button{
+    background-color: #915c29;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 7px;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .projects-container{
+        padding: 2rem;
+    }
+    .project h1{
+        font-size: 2rem;
+    }
+    .project{
+        padding-block: 3rem;
+    }
+}
+@media(max-width:620px){
+    .project h1{
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .project button{
+        font-size: 0.9rem;
+    }
+    .projects-container{
+        padding: 2rem 1rem;
+        padding-top: 1rem;
+    }
 }

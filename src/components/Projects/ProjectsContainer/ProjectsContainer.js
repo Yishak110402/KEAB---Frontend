@@ -6,10 +6,11 @@ export default function ProjectsContainer(){
     const {projects} = useContext(GeneralContext)
     return(
         <div className="projects-container">
-            <Project/>
-            <Project/>
-            <Project/>
-            <Project/>
+            {
+                projects.map((project)=>(
+                    <Project project = {project} />
+                ))
+            }
         </div>
     )
 }

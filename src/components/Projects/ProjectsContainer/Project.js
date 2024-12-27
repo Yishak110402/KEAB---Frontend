@@ -1,13 +1,11 @@
-import { useContext } from "react"
-import { GeneralContext } from "../../../hooks/GeneralContext"
-
-export default function Project(){
-    const {projects} = useContext(GeneralContext)
+export default function Project({project}){
     return(
         <div style={{
-            backgroundImage:`url(${projects[0].images[0]})`
+            backgroundImage:`url(${project.images[0]})`
         }} className="project">
-            <h1>{projects[0].name}</h1>
+            <h1>{project.name}</h1>
+            <button>See Full Project Detail</button>
+            <div className="shade"  />
         </div>
     )
 }
