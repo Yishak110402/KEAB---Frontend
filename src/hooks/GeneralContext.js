@@ -276,6 +276,21 @@ export default function GeneralProvider({ children }) {
     },
   ];
 
+const projects = [
+  {
+    name:"KEAB COMMUNITY LIBRARY AND INFORMATION CENTER IN SIDAMA NATIONAL REGIONAL STATE, ETHIOPIA",
+    images:[
+      "https://i.postimg.cc/65vbSbqm/project1-img1.jpg",
+      "https://i.postimg.cc/QNPnfZ87/project1-img2.jpg"
+    ],
+    description:[
+      "KEAB Community Library Project is a project aimed to delivery library service of different type to the community members (Women, Men, Youth, Children and Students as well). The community library which has powerful tools and activity that can transform community members including the students to become more innovative, productive and joyful at school and at home or any developmental activities. The Center will be programmed to energize community members including students, create opportunity for community with different type of books, current global information and introduce students to ICT technology to fulfill their dreams with hope and passion.",
+      "KEAB Community Library and Information Center as Reading and Practicing Periodical Centers encourages community members including students and show the power within them to be creative and successful. Creativity and innovative thinking are defining characteristics of successful entrepreneurs. Now more than ever, the Reading and Practicing Periodical Center become a driving force for successful community to find and achieve their vision and purpose.",
+      "The pilot project was held in two locations within the Sidama Region of Ethiopia. The first site was Finchawa Primary School, located in Hawassa Tulla Sub City, while the second site was Kege Primary School in Dale Woreda."
+    ]
+  }
+]
+
   useEffect(function () {
     async function getEvents() {
       setLoadingEvent(true);
@@ -339,6 +354,7 @@ export default function GeneralProvider({ children }) {
         team,
         teamNavOpen,
         setTeamNavOpen,
+        projects,
       }}>
       {children}
     </GeneralContext.Provider>
