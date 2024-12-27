@@ -278,7 +278,7 @@ export default function GeneralProvider({ children }) {
 
 const projects = [
   {
-    name:"KEAB COMMUNITY LIBRARY AND INFORMATION CENTER IN SIDAMA NATIONAL REGIONAL STATE, ETHIOPIA",
+    name:"KEAB Community Library And Information Center in Sidama National Regional State, Ethiopia",
     images:[
       "https://i.postimg.cc/65vbSbqm/project1-img1.jpg",
       "https://i.postimg.cc/QNPnfZ87/project1-img2.jpg"

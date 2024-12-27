@@ -1,0 +1,9 @@
+.projects-container{
+    padding: 2rem 6rem;
+    display: flex;
+}
+.project{
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+}
