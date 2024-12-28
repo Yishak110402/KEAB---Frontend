@@ -17,6 +17,7 @@ import TechnologyTeam from "./components/Team/TechnologyTeam/TechnologyTeam";
 import "./components/Team/TeamContainer/TeamContainer.css"
 import BoardMembers from "./components/Team/BoardMembers/BoardMembers";
 import Projects from "./pages/Projects";
+import OpenProject from "./pages/OpenProject";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
             <Route element={<BoardMembers />} path="/boardmembers" />
             <Route element={<TechnologyTeam />} path="/technologyteam" />
             <Route element={<OpenTeam />} path="/team/:id" />
+            <Route element={<OpenProject />} path="/projects/:id"/>
             <Route
               element={<CompleteExecMessage />}
               path="/exec-director-message"

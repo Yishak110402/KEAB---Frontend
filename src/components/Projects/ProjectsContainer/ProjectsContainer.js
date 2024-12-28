@@ -7,8 +7,8 @@ export default function ProjectsContainer(){
     return(
         <div className="projects-container">
             {
-                projects.map((project)=>(
-                    <Project project = {project} />
+                projects.map((project, index)=>(
+                    <Project index={index} project = {project} />
                 ))
             }
         </div>

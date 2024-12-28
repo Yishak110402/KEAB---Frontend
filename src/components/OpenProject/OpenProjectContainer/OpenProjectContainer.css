@@ -1,0 +1,71 @@
+.open-project{
+    padding: 2rem 6rem;
+}
+.open-project .title-container{
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    position: relative;
+    color: white;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+}
+.open-project .title-container .shade{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.6);
+}
+.open-project .title-container *{
+    position: relative;
+    z-index: 5;
+}
+.open-project .description-container p {
+    color: #185530;
+    margin-top: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+.open-project .images-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.open-project .all-images{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    border-radius: 5px;
+    width: 7vw;
+}
+.open-project .all-images img{
+    object-fit: cover;
+    object-position: center;
+    width: 70px;
+    height: 70px;
+    filter: brightness(0.3);
+    transition: all 0.1s ease;
+}
+.open-project .all-images img.selected{
+    transition: all 0.1s ease;
+    filter: brightness(1);
+}
+.open-project .selected-image{
+    width: auto;
+}
+.open-project .selected-image img{
+    height: 70vh;
+    width: 90vw;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
