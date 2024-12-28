@@ -108,6 +108,9 @@
     .open-project .title-container h1{
         font-size: 1.8rem;
     }
+    .open-project .description-container p{
+        font-size: 0.8rem;
+    }
     .open-project .images-container{
         flex-flow: column;
         gap: 6rem;
