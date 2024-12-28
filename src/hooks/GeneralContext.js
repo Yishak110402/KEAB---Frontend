@@ -76,6 +76,17 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Beteselam Yokamo (BSc)",
+      position:"Editor & Event Organizer",
+      team:"technology",
+      image:"https://i.postimg.cc/sDNgQ0yK/beteselam-bio.jpg",
+      description:[
+        "Ms. Beteselam as a Technology Team member/Camera Edition/Event Organizer of KEABI Africa Community Development and Human Rights Organization, she has sufficing knowledge related to computer and technology works.",
+        "She is experienced with different softwares like Microsoft word, Microsoft excel, Microsoft PowerPoint, Adobe, Camera, Editor the internet online apps and others.  So far her related experience, she has an experience of computer software and Camera Edition at Hawassa City in Ethiopia. She is surfing the photo and video editor with up-to-date information and new technology.",
+        "Ms. Beteselam who is a Technology Team member of KEABI Africa Community Development and Human Rights Organization, works with great commitment and passion for technology and edition."
+      ]
+    },
+    {
       name: "Natnael Ashenafi Getahun (Bsc,Msc)",
       position: "Technology Team",
       image: "https://i.postimg.cc/s2vXWD1W/natnael-ashenafi-bio.jpg",
@@ -183,6 +194,17 @@ export default function GeneralProvider({ children }) {
         "Currently, he serves as the coordinator of partnership projects at Hawassa University, collaborating with organizations like Books For Africa (BFA) and Book Aid International (BAI) to enhance access to educational resources for underserved communities in Ethiopia's Sidama region. He also works with the International Law Book Facility (ILBF), contributing to the development of exemplary libraries in higher education institutions across Ethiopia.",
         "In addition, Mulugeta is a team member of Librarian Spotlight Africa (LSA), where he participates and contributes in his role as Coordinator for Partnership and Community Engagement.",
         "Honored as the Librarian of the Month for August 2024 by the African Librarian Spotlight Program, Mulugeta is a dedicated advocate for community-centered initiatives, Open Access, and Open Educational Resources (OER). Through international collaborations and his blog, 21st Century INFOLIBNET, he champions the role of libraries as essential hubs of knowledge and development in the digital age, driven by his commitment to bridging the gap between information accessibility and community needs."
+      ]
+    },
+    {
+      name:"Tizitaw Ebiso Daemo (BA, MA in Development Economics)",
+      team:"advisory",
+      position:"Advisory Board Member",
+      image:"https://i.postimg.cc/KYnGWGTs/tizita-bio.jpg",
+      description:[
+        "The Consultant Mr. Tizitaw Ebiso Daemo is an experienced Financial Wellness Consultant at KeyBank in Denver, Colorado, offering clients strategic financial advice rooted in both academic expertise and diverse international experience.",
+        "With a master’s degree in Developmental Economics, Tizitaw combines his solid financial background with a deep understanding of global trade, economic development, and financial systems. Tizitaw’s career includes significant experience as an International Trade Service Expert at the Hawassa Industrial Park in Ethiopia. In this role, he provided expert guidance to investors on import and export procedures, ensuring alignment with international trade standards, the International Chamber of Commerce, and regulations from Ethiopia’s National Bank and Commercial Bank. He also helped navigate the country’s customs rules, streamlining trade operations for companies engaged in cross-border commerce. Before joining KeyBank, Tizitaw served as a Senior Customer Relationship Manager at CBE Hawassa District, where he developed and nurtured client relationships, providing tailored financial solutions for businesses and individuals seeking growth and stability.",
+        "As part of our advisory team of KEAB Africa Community Development and Human Rights Organization, Mr. Tizitaw is committed to offering clients informed and strategic advice on organizational wellness and global aspects. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational decisions."
       ]
     },
     {

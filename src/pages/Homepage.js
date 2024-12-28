@@ -5,6 +5,7 @@ import OurCoreValues from "../components/Homepage/OurCoreValues/OurCoreValues";
 import OurProjectsPreview from "../components/Homepage/OurProjectsPreview/OurProjectsPreview";
 import MessagePreview from "../components/Homepage/MessagePreview/MessagePreview";
 import { GeneralContext } from "../hooks/GeneralContext";
+import OurPartners from "../components/Homepage/OurPartners/OurPartners";
 
 export default function Homepage() {
     const {apiURL} = useContext(GeneralContext)
@@ -28,6 +29,7 @@ export default function Homepage() {
         <>
             <Hero />
             <AboutPreview />
+            <OurPartners />
             <MessagePreview />
             <OurCoreValues />
             <OurProjectsPreview />
