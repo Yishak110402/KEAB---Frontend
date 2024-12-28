@@ -1,8 +1,14 @@
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { GeneralContext } from "../../../hooks/GeneralContext"
 import Member from "../Member/Member"
 
 export default function TechnologyTeam(){
+    useEffect(function(){
+        window.scrollTo({
+            top:0,
+            behavior:"instant"
+        })
+    },[])
     const {team} = useContext(GeneralContext)
     const techTeam = team.filter((t)=>(t.team === "technology"))
     return(

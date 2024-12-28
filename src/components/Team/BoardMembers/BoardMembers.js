@@ -1,7 +1,13 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import Member from "../Member/Member";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function BoardMembers() {
+  useEffect(function(){
+    window.scrollTo({
+        top:0,
+        behavior:"instant"
+    })
+},[])
   const { team } = useContext(GeneralContext);
   const boardMembers = team.filter((t) => t.team === "board");
   return (
