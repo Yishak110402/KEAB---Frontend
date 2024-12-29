@@ -7,6 +7,7 @@
     gap: 0rem;
     perspective: 1000px;
 }
+
 .hero .hero-company-name{
     padding: 2rem 6rem;
     text-align: center;
@@ -14,6 +15,16 @@
 .hero .hero-company-name h1{
     line-height: 1.5;
     color: #915c29;
+    transform: translateX(-5rem);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.hero.visible .hero-company-name h1{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 0.4s ease;
 }
 .hero .hero-image{
     width: 100vw;

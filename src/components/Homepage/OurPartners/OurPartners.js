@@ -1,8 +1,22 @@
+import { useEffect, useRef, useState } from "react"
 import "./OurPartners.css"
 
 export default function OurPartners(){
+    const partnersRef = useRef()
+    const [visible, setVisible] = useState(false)
+    useEffect(function(){
+        const observer = new IntersectionObserver((entries)=>{
+            const entry = entries[0]
+            if(entry.isIntersecting){
+                setVisible(true)
+            }
+        },{
+            threshold:[0.2,1]
+        })
+        observer.observe(partnersRef.current)
+    },[])
     return(
-        <div className="our-partners">
+        <div ref={partnersRef} className={`our-partners ${visible ? "visible" : ""}`}>
             <h1>Our Partners</h1>
             <div className="partners-container">
                 <div className="partner">

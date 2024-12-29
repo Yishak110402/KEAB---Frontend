@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import "./Hero.css";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function Hero() {
@@ -12,10 +12,23 @@ export default function Hero() {
         clearInterval(imagesInterval)
     }
   },[currentImage, heroImages.length]);
+  const h1Ref = useRef()
+  const [visible, setVisible] = useState(false)
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setVisible(true)
+      }
+    },{
+      threshold:[0.8, 1]
+    })
+    observer.observe(h1Ref.current)
+  },[])
   return (
-    <div className="hero">
+    <div className={`hero ${visible ?"visible" : ''}`}>
       <div className="hero-company-name">
-        <h1>
+        <h1 ref={h1Ref}>
           Welcome to KEAB Africa Community Development and Human Rights
           Organization (KACDHRO)
         </h1>

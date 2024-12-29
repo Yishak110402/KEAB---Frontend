@@ -13,6 +13,17 @@
     gap: 3rem;
     /* align-items: center; */
 }
+.about-preview *{
+    transform: translateX(-5rem);
+    opacity: 0;
+    filter: blur(5px);
+}
+.about-preview.visible *{
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.4s ease;
+}
 .about-preview .shade{
     width: 100vw;
     height: 800vh;
@@ -21,6 +32,8 @@
     position: absolute;
     top: -1rem;
     left: 0;
+    transform: translateX(0);
+    opacity: 1;
 }
 .about-preview h1{
     position: relative;

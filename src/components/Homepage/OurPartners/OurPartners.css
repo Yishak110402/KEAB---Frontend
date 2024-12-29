@@ -3,6 +3,17 @@
     background-color: #185530;
     color: white;
 }
+.our-partners *{
+    transform: translateX(-5rem);
+    opacity: 0;
+    filter: blur(5px);
+}
+.our-partners.visible *{
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.4s ease;
+}
 .our-partners > h1{
     font-size: 3rem;
 }
@@ -17,6 +28,7 @@
     padding: 2rem;
     margin-top: 1rem;
     border-radius: 10px;
+    transition-delay: 0.2s;
 }
 .our-partners .partner h2{
     font-size: 2rem;
