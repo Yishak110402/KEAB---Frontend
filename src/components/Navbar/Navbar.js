@@ -29,7 +29,10 @@ export default function Navbar() {
       </div>
       <nav className={`navbar ${navOpen ? "" : "closed"}`}>
         <div className="logo">
-          <Link to="/">
+          <Link onClick={()=>{
+            setNavOpen(false)
+            setTeamNavOpen(false)
+          }} to="/">
             <img
               src="https://i.postimg.cc/9QP2MTv1/editted-logo.jpg"
               alt="KEAB Logo"
