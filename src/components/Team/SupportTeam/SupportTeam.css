@@ -1,0 +1,61 @@
+.support-team{
+    padding: 2rem 6rem;
+    color: #185530;
+}
+.support-team h1{
+    font-size: 3rem;
+}
+.support-team-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.support-member{
+    width: 48%;
+    border: 2px solid #185530;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+}
+.support-member h2{
+    color: #915c29;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.support-member h3{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+@media(max-width:1000px){
+    .support-team{
+        padding: 2rem;
+    }
+    .support-team h1{
+        font-size: 2rem;
+    }
+    .support-member h2{
+        font-size: 1.2rem;
+    }
+    .support-member h3{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:700px){
+    .support-team{
+        padding: 2rem 1rem;
+    }
+    .support-team h1{
+        font-size: 1.5rem;
+    }
+    .support-member h2{
+        font-size: 1rem;
+    }
+    .support-member h3{
+        font-size: 0.8rem;
+    }
+    .support-member{
+        padding: 1rem 0.5rem;
+        width: 100%;
+    }
+}

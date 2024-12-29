@@ -87,6 +87,20 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name: "Natnael Ashenafi Getahun (Bsc,Msc)",
+      position: "Technology Team",
+      image: "https://i.postimg.cc/s2vXWD1W/natnael-ashenafi-bio.jpg",
+      team: "technology",
+      description: [
+        "Natnael Ashenafi Getahun (BSc, MSc) is an accomplished engineer, educator, and lifelong learner dedicated to making a meaningful impact through his work. His academic journey began with a Bachelor’s degree in Mechanical Engineering, followed by a Master’s degree in Mechanical Design Engineering, and he is currently pursuing a Ph.D. in the same field. These milestones reflect his unwavering commitment to innovation and advancing engineering knowledge.",
+        "As a Lecturer and Researcher at Hawassa University Institute of Technology, Natnael is privileged to teach and mentor aspiring engineers, guiding them toward excellence in their fields. His research focuses on mechanical design and its practical applications, aiming to develop sustainable solutions to address real-world challenges. His academic role complements his drive to explore the intersection of engineering innovation and societal benefit.",
+        "Before transitioning to academia, Natnael gained valuable professional experience as a Production Engineer at MOHA Soft Drink Company. This role honed his technical expertise and leadership skills, equipping him with practical insights that inform his teaching and research today. Beyond his professional endeavors, Natnael is an active member of the Mechanical Engineers Association, reflecting his commitment to professional development and collaboration within his field.",
+        "Natnael’s dedication extends beyond engineering, as he actively gives back to his community through various initiatives. He has held youth leadership roles at the Mekane Yesus Congregation Church in Hawassa and has participated in numerous social programs aimed at uplifting those around him. His community engagement underscores his belief in the transformative power of engineering and education to drive social progress.",
+        "His commitment to continuous learning is evident in the international certifications he has earned. These include Programming with Python from the University of Michigan, Engineering Mechanics and Material Science from the Georgia Institute of Technology, Computer Programming from the University of Leeds, and Nano Fabrication Technologies from ITEC in Bangalore, India. These certifications reflect his determination to stay at the forefront of engineering and technology.",
+        "Natnael’s strong communication, leadership, and management skills have enabled him to inspire and collaborate with others effectively. He envisions a future where technology is harnessed to address pressing societal challenges. With a focus on bridging the gap between technical expertise and community needs, Natnael aims to ensure his work contributes to meaningful and transformative change in people’s lives.",
+      ],
+    },
+    {
       name:"Bisrat Borsamo Borago (BSc in Mechanical Engineering, BSc in Electromechanics)",
       image:"https://i.postimg.cc/T1ZxzN6d/bisrat-image.jpg",
       team:"technology",
@@ -108,20 +122,7 @@ export default function GeneralProvider({ children }) {
         "Ms. Beteselam who is a Technology Team member of KEABI Africa Community Development and Human Rights Organization, works with great commitment and passion for technology and edition."
       ]
     },
-    {
-      name: "Natnael Ashenafi Getahun (Bsc,Msc)",
-      position: "Technology Team",
-      image: "https://i.postimg.cc/s2vXWD1W/natnael-ashenafi-bio.jpg",
-      team: "technology",
-      description: [
-        "Natnael Ashenafi Getahun (BSc, MSc) is an accomplished engineer, educator, and lifelong learner dedicated to making a meaningful impact through his work. His academic journey began with a Bachelor’s degree in Mechanical Engineering, followed by a Master’s degree in Mechanical Design Engineering, and he is currently pursuing a Ph.D. in the same field. These milestones reflect his unwavering commitment to innovation and advancing engineering knowledge.",
-        "As a Lecturer and Researcher at Hawassa University Institute of Technology, Natnael is privileged to teach and mentor aspiring engineers, guiding them toward excellence in their fields. His research focuses on mechanical design and its practical applications, aiming to develop sustainable solutions to address real-world challenges. His academic role complements his drive to explore the intersection of engineering innovation and societal benefit.",
-        "Before transitioning to academia, Natnael gained valuable professional experience as a Production Engineer at MOHA Soft Drink Company. This role honed his technical expertise and leadership skills, equipping him with practical insights that inform his teaching and research today. Beyond his professional endeavors, Natnael is an active member of the Mechanical Engineers Association, reflecting his commitment to professional development and collaboration within his field.",
-        "Natnael’s dedication extends beyond engineering, as he actively gives back to his community through various initiatives. He has held youth leadership roles at the Mekane Yesus Congregation Church in Hawassa and has participated in numerous social programs aimed at uplifting those around him. His community engagement underscores his belief in the transformative power of engineering and education to drive social progress.",
-        "His commitment to continuous learning is evident in the international certifications he has earned. These include Programming with Python from the University of Michigan, Engineering Mechanics and Material Science from the Georgia Institute of Technology, Computer Programming from the University of Leeds, and Nano Fabrication Technologies from ITEC in Bangalore, India. These certifications reflect his determination to stay at the forefront of engineering and technology.",
-        "Natnael’s strong communication, leadership, and management skills have enabled him to inspire and collaborate with others effectively. He envisions a future where technology is harnessed to address pressing societal challenges. With a focus on bridging the gap between technical expertise and community needs, Natnael aims to ensure his work contributes to meaningful and transformative change in people’s lives.",
-      ],
-    },
+    
     {
       name:"Mihiretu Samuel Gabara (BSc)",
       team:"technology",
