@@ -87,6 +87,17 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Bisrat Borsamo Borago (BSc in Mechanical Engineering, BSc in Electromechanics)",
+      image:"https://i.postimg.cc/T1ZxzN6d/bisrat-image.jpg",
+      team:"technology",
+      position:"Technology Team",
+      description:[
+        "With a bachelor’s degrees in mechanical engineering, BSc in Electromechanics from Mekelle University, Tigray Region, Ethiopia, Mr. Bisrat combines his solid technology background with deep understanding of digital dynamics. Mr. Bisrat Borsamo as a Technology Team member of KEAB Africa Community Development and Human Rights Organization, he has sufficing knowledge related to computer and technology works.",
+        "He is experienced with different software’s like Microsoft, Adobe, Programing, the internet online apps and others. So far, his related experience, he has an experience of computer maintenance at industries in Mekelle city in Ethiopia. He is surfing the internet for up-to-date information, news and new technology.",
+        "Mr. Bisrat who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, is committed to offering clients informed and strategic technology advice on organizational wellness and global aspects and works with great commitment and passion for technology and engineering."
+      ]
+    },
+    {
       name:"Beteselam Yokamo (BSc)",
       position:"Editor & Event Organizer",
       team:"technology",
@@ -184,6 +195,17 @@ export default function GeneralProvider({ children }) {
         "Nebere is founding member US Exchange Alumni Association Ethiopian ,member of  Ethiopian Cardiac Professional Society, Regional Coordinator For Ethiopian Nurse Association (Sidama Region) Country Director For Association of Mental Health Reform Organisations in Africa AMHROA Network and the Global Youth Network",
         "Nebere is passionate about youth empowerment and plans to establish a local youth initiative in the near future, committed to community development, advocating for youth empowerment, human rights, inclusivity, and youth participation. As a goal-oriented and analytical individual, Nebere is always eager to contribute to improving communities and driving positive change.",
       ],
+    },
+    {
+      name:"Dr. Dagim Dawit Gonsamo (PhD in Applied Social Science and Social Work)",
+      position:"Advisory Team",
+      image:"https://i.postimg.cc/FKZ9Yxjp/Dr-Dagim-image.png",
+      team:"advisory",
+      description:[
+        "Dr. Dagim who is an Advisory Team of KEAB AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. Dr. Dagim lives and works in Hawassa City in Ethiopia offering academic and social services with his deep-rooted experience in both academic expertise and diverse international experience in social works. Dr. Dagim has received a Doctorate degree from Hong Kong Poly Technic University in Hong Kong and currently he is also a Post Doctoral Fellow in Hong Kong Poly Technic University in Hong Kong.",
+        "In addition, Dr. Dagim has involved in variety of voluntary activities including in helping women, youth and children through charity programs in Sidama National Regional States in Ethiopia. His academic background provides a strong foundation for her work in advocating for social work, community development, women and Childs education, and social empowerments. Currently, he has worked as a head for Department of Sociology at Hawassa University.  As part of Advisory Team of KEAB Africa Community Development and Human Rights Organization, Dr. Dagim is committed to offering strategic advice on organizational wellness and global aspects. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational activities for KEAB Africa Community Development and Human Rights Organization.",
+        "As an advisory team of KEAB Africa Community Development and Human Rights Organization, Dr. Dagim with unwavering commitment plays a pivotal role in steering the organization’s mission to promote community development, human rights, social inclusion, and gender equality across Ethiopia. "
+      ]
     },
     {
       name: "Siyanne Mekonnen",
