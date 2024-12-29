@@ -121,6 +121,9 @@
         display: none;
         transition: all 0.2s ease;
     }
+    .navbar .dropdown-menu a{
+        font-size: 0.85rem;
+    }
     .navbar .dropdown-menu.open{
         display: flex;
         transition: all 0.2s ease;
