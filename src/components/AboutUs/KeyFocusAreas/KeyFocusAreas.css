@@ -2,6 +2,17 @@
     padding: 2rem 6rem;
     color: #185530;
 }
+.focus-areas *{
+    transform: translateX(-5rem);
+    opacity: 0;
+    filter: blur(5px);
+}
+.focus-areas.visible *{
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.4s ease;
+}
 .focus-areas h1{
     font-size: 3rem;
     color: #915c29;

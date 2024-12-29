@@ -1,8 +1,20 @@
+import { useEffect, useRef, useState } from "react"
 import "./AdditionalInisights.css"
 
 export default function AdditionalInsights(){
+    const [visible, setVisible] = useState(false)
+    const insightRef = useRef()
+    useEffect(function(){
+        const observer = new IntersectionObserver((entries)=>{
+            const entry = entries[0]
+            if(entry.isIntersecting){
+                setVisible(true)
+            }
+        },{threshold:[0.4, 1]})
+        observer.observe(insightRef.current)
+    },[])
     return(
-        <div className="additional-insights">
+        <div ref={insightRef} className={`additional-insights ${visible ? "visible" : ""}`}>
             <div className="shade" />
             <h1>Additional Insights</h1>
             <p>In addition to our primary programs, KEAB Africa is also deeply involved in advocacy for systemic change. We aim to influence national and regional policies on issues such as gender equality, environmental justice, and the protection of human rights. We advocate for stronger legal frameworks that support marginalized communities and strive to build a network of informed, empowered citizens who can act as changemakers.</p>
