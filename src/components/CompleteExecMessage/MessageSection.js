@@ -2,7 +2,7 @@ import "./MessageSection.css";
 export default function MessageSection() {
   return (
     <div className="exec-message">
-      <h1>Message from our Executive Director</h1>
+      <h1>Message from the Executive Director</h1>
       <div className="message-content">
         <div>
           <p>

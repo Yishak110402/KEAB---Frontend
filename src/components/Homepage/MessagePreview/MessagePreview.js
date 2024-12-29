@@ -17,7 +17,7 @@ export default function MessagePreview() {
   },[])
   return (
     <div ref={messageRef} className={`message-preview ${visible ? "visible" : ""}`}>
-      <h1>Message from our Executive Director</h1>
+      <h1>Message from the Executive Director</h1>
       <div className="preview-container">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

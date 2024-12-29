@@ -148,6 +148,18 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Sebsibe Sasamo (LLB, LLM in Criminal Justice)",
+      image:'https://i.postimg.cc/bvsZfWXb/sebsibe-bio.png',
+      position:"Advisory Team",
+      team:"advisory",
+      description:[
+        "The Advisory Team of KEAB Africa Community Development and Human Rights Organization, Mr. Sebsibe who is a Public Prosecutor & Human Rights Advocate and Researcher and also a Social Justice Leader.",
+        "The Educational Background of Mr. Sebsibe is that he holds an LLM/Master of Laws in Criminal Justice from the School of Law, College of Law and Governance at Hawassa University, where he also earned his Bachelor of Laws (LLB) degree from Adama University, Oromia Region, Ethiopia. His academic background provides a strong foundation for his work in advocating for legal reforms, human rights education, and social justice.",
+        "Mr. Sebsibe experience as a senior public prosecutor in different offices in Ethiopia, and as a Human Rights Volunteer at the Legal Aid Centers, reflects his dedication to education and capacity building in the legal and development field. Mr. Sebsibe’s work in volunteer organizations and his volunteer efforts have contributed to the development of future legal professionals and the provision of essential legal services to marginalized communities.",
+        " Mr. Sebsibe’s unwavering commitment to justice, human rights, gender equality, and sustainable development continues to inspire his work at KEAB Africa Community Development and Human Rights Organization, where he strives to create a developed community and inclusion of human rights. As the advisory Team of KEAB Africa Community Development and Human Rights Organization, Mr. Sebsibe plays a pivotal role in steering the organization’s mission to promote human rights, social inclusion, and gender equality across Ethiopia."
+      ]
+    },
+    {
       name:"Ruth Seifu Mola (LLB, LLM, MA)",
       position:"Advisory Team",
       image:"https://i.postimg.cc/mrRbNVQ0/rutu-bio.jpg",
