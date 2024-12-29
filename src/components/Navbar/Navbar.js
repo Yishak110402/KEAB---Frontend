@@ -54,6 +54,7 @@ export default function Navbar() {
           </ul>
           <NavLink onClick={handleNav} to='/projects'>Projects</NavLink>
           <NavLink onClick={handleNav} to='/events'>Events</NavLink>
+          <NavLink onClick={handleNav} to='/partnerships'>Partnerships</NavLink>
           <NavLink onClick={handleNav} to='/contact'>Contact</NavLink>
       
         </ul>

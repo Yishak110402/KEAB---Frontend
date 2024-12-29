@@ -19,6 +19,7 @@ import BoardMembers from "./components/Team/BoardMembers/BoardMembers";
 import Projects from "./pages/Projects";
 import OpenProject from "./pages/OpenProject";
 import SupportTeam from "./components/Team/SupportTeam/SupportTeam";
+import Partnerships from "./pages/Partnerships";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
             <Route element={<SupportTeam />} path="/supportteam" />
             <Route element={<OpenTeam />} path="/team/:id" />
             <Route element={<OpenProject />} path="/projects/:id"/>
+            <Route element={<Partnerships/>} path="/partnerships" />
             <Route
               element={<CompleteExecMessage />}
               path="/exec-director-message"
