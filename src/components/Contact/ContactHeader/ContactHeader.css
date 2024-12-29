@@ -27,11 +27,17 @@
     display: flex;
     gap: 2rem;
     margin-bottom: 1.5rem;
+    align-items: center;
+}
+.contact-header .option a{
+    color: inherit;
+    text-decoration: none;
 }
 .contact-header .options-map iframe{
     border-radius: 8px;
     border: none;
     width: 100%;
+    height: 80vh;
 }
 @media(max-width:950px){
     .contact-header{
@@ -40,6 +46,9 @@
     .contact-header svg{
         width: 45px;
         height: 45px;
+    }
+    .contact-header .options-map iframe{
+        height: 60vh;
     }
 }
 @media(max-width:750px){
@@ -79,7 +88,7 @@
 }
 @media(max-width:500px){
     .contact-header .option{
-        width: 50vw;
+        width: 100vw;
         margin-bottom: 0.5rem;
     }
     .contact-header svg {
