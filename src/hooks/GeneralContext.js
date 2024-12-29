@@ -76,6 +76,17 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Dr. Mulualem Tesfaye (Doctor in Dental Medicine, Speciality Fellow in Oral and Maxillofacial Surgery)",
+      position:"Co-founder",
+      team:"executive",
+      image:'https://i.postimg.cc/43MWbDbx/mule-bio.jpg',
+      description:[
+        "Dr. Mulualem Tesfaye who is a Co-founder of KEAB AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. Dr. Mulualem lives and works in Hawassa City in Ethiopia offering dental medicine services with his deep-rooted experience in both academic expertise and diverse international experience. Dr. Mulualem has received a Doctorate degree from Jimma University in Ethiopia and currently he is also a Speciality Fellow in Oral and Maxillofacial Surgery Program at Hawassa University, College of Medicine and Health Science.",
+        "In addition, Dr. Mulualem has involved in variety of voluntary activities including in helping women and children through charity programs in Sidama National Regional States in Ethiopia. His academic background provides a strong foundation for her work in advocating for community development, women and Childs education, and social empowerments. Currently, he has worked as a Senior Dental Medical Doctor in Hawassa University Comprehensive Specialized Referral Hospital. He has served as the Dental OPD Case Team Coordinator at Hawassa University Compressive Specialized Referral Hospital. As part of founder of KEAB Africa Community Development and Human Rights Organization, Dr. Mulualem is committed to offering strategic advice on organizational wellness and global aspects.",
+        "As the co-founder of KEAB Africa Community Development and Human Rights Organization, Dr. Mulualem with unwavering commitment plays a pivotal role in steering the organization’s mission to promote community development, human rights, social inclusion, and gender equality across Ethiopia. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational activities for KEAB Africa Community Development and Human Rights Organization."
+      ]
+    },
+    {
       name:"Beteselam Yokamo (BSc)",
       position:"Editor & Event Organizer",
       team:"technology",
