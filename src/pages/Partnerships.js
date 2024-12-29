@@ -1,7 +1,9 @@
+import Partners from "../components/Partnerhips/Partners";
+
 export default function Partnerships(){
     return(
         <>
-            <h1>Partnerships</h1>
+            <Partners />
         </>
     )
 }

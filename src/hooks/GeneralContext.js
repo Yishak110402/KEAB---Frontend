@@ -117,7 +117,7 @@ export default function GeneralProvider({ children }) {
       team:"technology",
       image:"https://i.postimg.cc/sDNgQ0yK/beteselam-bio.jpg",
       description:[
-        "Ms. Beteselam as a Technology Team member/Camera Edition/Event Organizer of KEABI Africa Community Development and Human Rights Organization, she has sufficing knowledge related to computer and technology works.",
+        "Ms. Beteselam as a Technology Team member/Camera Edition/Event Organizer of KEAB Africa Community Development and Human Rights Organization, she has sufficing knowledge related to computer and technology works.",
         "She is experienced with different softwares like Microsoft word, Microsoft excel, Microsoft PowerPoint, Adobe, Camera, Editor the internet online apps and others.  So far her related experience, she has an experience of computer software and Camera Edition at Hawassa City in Ethiopia. She is surfing the photo and video editor with up-to-date information and new technology.",
         "Ms. Beteselam who is a Technology Team member of KEABI Africa Community Development and Human Rights Organization, works with great commitment and passion for technology and edition."
       ]
