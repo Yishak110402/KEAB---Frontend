@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       <div className="info">
         <div className="contacts">
-          <p>Phone Number: +251-956-02-30-21</p>
+          <p>Phone Number: +251916038397</p>
           <p>Email: keabafrica@gmail.com</p>
         </div>
       </div>
