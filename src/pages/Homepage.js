@@ -6,6 +6,7 @@ import OurProjectsPreview from "../components/Homepage/OurProjectsPreview/OurPro
 import MessagePreview from "../components/Homepage/MessagePreview/MessagePreview";
 import { GeneralContext } from "../hooks/GeneralContext";
 import OurPartners from "../components/Homepage/OurPartners/OurPartners";
+import HandImage from "../components/Homepage/HandImage/HandImage";
 
 export default function Homepage() {
     const {apiURL} = useContext(GeneralContext)
@@ -33,6 +34,7 @@ export default function Homepage() {
             <MessagePreview />
             <OurCoreValues />
             <OurProjectsPreview />
+            <HandImage />
         </>
     );
 }

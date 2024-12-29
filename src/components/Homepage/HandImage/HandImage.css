@@ -1,0 +1,38 @@
+.hand-image{
+    background-image: url("https://i.postimg.cc/XNT07PR3/keab-hand-image.jpg");
+    height: 80vh;
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    /* filter: brightness(0.5); */
+    backdrop-filter: blur(18px);
+    position: relative;
+    margin-bottom: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hand-image::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(18px);
+    z-index: 2;
+}
+.hand-image img{
+    /* width: 40%; */
+    height: 100%;
+    position: relative;
+    z-index: 5;
+}
+@media(max-width:700px){
+    .hand-image{
+        height: 45vh;
+    }
+    .hand-image img{
+        width: 70%;
+    }
+}

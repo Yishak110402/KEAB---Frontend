@@ -22,7 +22,7 @@ export default function MessageSection() {
             rights, peace education, and advocacy programs that address systemic
             inequalities and empower vulnerable groups. In about a year, we
             managed the KEAB Africa Community Development and Human Rights
-            Organization to be among top-ranking CSOs.{" "}
+            Organization.
           </p>
         </div>
         <img src="https://i.postimg.cc/y6kQXcFk/exec-image.jpg" alt="" />

@@ -208,6 +208,28 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
+      name:"Admasu Abebe (Development Expert)",
+      team:"advisory",
+      position:"Advisory Team",
+      image:"https://i.postimg.cc/qMbMLwY5/ado-bio.jpg",
+      description:[
+        "Mr. Admasu lives and works in Las Vegas, Colorado, USA offering volunteer and client services with his deep-rooted experience in both academic expertise and diverse international experience.",
+        "With a Bachelor of Science degree, Ethiopia and before going to USA, Mr. Admasu served as a Senior Development Agent Officer, Sidama Region Agricultural Office, Ethiopia where he developed and nurtured development activates, providing tailored agricultural development solutions for local government offices seeking rural growth and development. In addition, Mr. Admasu has involved in variety of voluntary activities including in helping women and children in Sidama National Regional States in Ethiopia.",
+        "As part of the advisory team of KEAB Africa Community Development and Human Rights Organization, Mr. Admasu is committed to offering strategic advice on organizational wellness and global aspects. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational decisions for KEAB Africa Community Development and Human Rights Organization."
+      ]
+    },
+    {
+      name:"Yilma Nigusse Nune (BA)",
+      image:"https://i.postimg.cc/1553w2WF/yilma-bio.jpg",
+      position:"Advisory Team",
+      team:"advisory",
+      description:[
+        "Mr. Yilma Nigusse lives and works in Denver, Colorado, USA offering clients services with his deep-rooted experience in both academic expertise and diverse international experience.",
+        "With a Bachelor of Art degree from Jimma University, Ethiopia and before going to USA, Mr. Yilma served as a Senior Customer Relationship Office at CBE Hawassa District, Ethiopia where he developed and nurtured client relationships, providing tailored institutional solutions for businesses corporate responsibilities and individuals seeking growth and stability. In addition, Mr. Yilma has involved in variety of voluntary activities including in provision of free books for children in Sidama National Regional States in Ethiopia.",
+        "As part of our advisory team of KEAB Africa Community Development and Human Rights Organization, Mr. Yilma is committed to offering clients informed and strategic advice on organizational wellness and global aspects. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational decisions."
+      ]
+    },
+    {
       name: "Dr. Tsion Assefa Desalegn (PhD)",
       team: "board",
       position: "Board Chairperson",
@@ -268,6 +290,26 @@ export default function GeneralProvider({ children }) {
         "As the Board Member of KEAB AFRICA Community Development and Human Rights Organization, Mr. Petros Gobara brings a wealth of experience, a passion for health education and community development in Ethiopia",
       ],
     },
+    {
+      name:"Amanuel Yosef Sankura",
+      team:"support",
+      position:"Accountant and Finance Team Lead"
+    },
+    {
+      name:"Betelehem Borisama Gareno",
+      team:"support",
+      position:"Auditor"
+    },
+    {
+      name:"Habitamu Haile",
+      team:"support",
+      position:"Auditor"
+    },
+    {
+      name:"Yeneneh Tamir",
+      team:"support",
+      position:"Driver"
+    }
   ];
 
   const coreValues = [
