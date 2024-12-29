@@ -1,8 +1,22 @@
 import { Link } from "react-router-dom";
 import "./MessagePreview.css";
+import { useEffect, useRef, useState } from "react";
 export default function MessagePreview() {
+  const [visible, setVisible] = useState(false)
+  const messageRef = useRef()
+  useEffect(function(){
+    const observer = new IntersectionObserver((entries)=>{
+      const entry = entries[0]
+      if(entry.isIntersecting){
+        setVisible(true)
+      }
+    },{
+      threshold:[0.7, 1]
+    })
+    observer.observe(messageRef.current)
+  },[])
   return (
-    <div className="message-preview">
+    <div ref={messageRef} className={`message-preview ${visible ? "visible" : ""}`}>
       <h1>Message from our Executive Director</h1>
       <div className="preview-container">
         <div>

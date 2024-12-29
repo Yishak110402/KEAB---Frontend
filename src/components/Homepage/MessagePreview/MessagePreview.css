@@ -3,6 +3,17 @@
     color: #f7f7f7;
     padding: 2rem 6rem;
 }
+.message-preview *{
+    transform: translateX(-5rem);
+    filter: blur(5px);
+    opacity: 0;
+}
+.message-preview.visible *{
+    transform: translateX(0);
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.4s ease;
+}
 .message-preview h1{
     margin-bottom: 2.5rem;
     font-size: 3rem;
