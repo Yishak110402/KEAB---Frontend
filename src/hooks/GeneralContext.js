@@ -119,7 +119,7 @@ export default function GeneralProvider({ children }) {
       description:[
         "Ms. Beteselam as a Technology Team member/Camera Edition/Event Organizer of KEAB Africa Community Development and Human Rights Organization, she has sufficing knowledge related to computer and technology works.",
         "She is experienced with different softwares like Microsoft word, Microsoft excel, Microsoft PowerPoint, Adobe, Camera, Editor the internet online apps and others.  So far her related experience, she has an experience of computer software and Camera Edition at Hawassa City in Ethiopia. She is surfing the photo and video editor with up-to-date information and new technology.",
-        "Ms. Beteselam who is a Technology Team member of KEABI Africa Community Development and Human Rights Organization, works with great commitment and passion for technology and edition."
+        "Ms. Beteselam who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, works with great commitment and passion for technology and edition."
       ]
     },
     
@@ -132,6 +132,28 @@ export default function GeneralProvider({ children }) {
         "Mr. Mihiretu as a Technology Team member of KEAB Africa Community Development and Human Rights Organization, he has sufficing knowledge related to computer and technology works.",
         "He is experienced with different softwares like Microsoft word, Microsoft excel, Microsoft PowerPoint, Adobe, the internet online apps and others.  So far his related experience, he has an experience of computer maintenance at Wonji St. Mary Catholic Church in Ethiopia. He is surfing the internet for up-to-date information, news and new technology.",
         "Mr. Mihiretu who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, works with great commitment and passion for technology ."
+      ]
+    },
+    {
+      name:"Sufean Ahmed (MSc, BSc in RDFS, Diploma in Data Programming)",
+      team:"technology",
+      position:"Technology Team",
+      image:"https://i.postimg.cc/P5LZnsfk/sufean-bio.jpg",
+      description:[
+        "Mr. Sufean Ahmed lives and works in Toronto, Canada offering technology related client services with his deep-rooted experience in both expertise and diverse international experience.",
+        "With a Master of Science Degree related to Smart Technology from Hawassa University in joint program with University of Saskatchewan, Canada and a bachelor’s degrees in RDFS from Haromaya University, Oromia Region, Ethiopia and Diploma in Data Analysis and Programing, Mr. Sufean Ahmed combines his solid programing and technology background with deep understanding of digital dynamics and information technology. Mr. Sufean Ahmed as a Technology Team member of KEAB Africa Community Development and Human Rights Organization, he has sufficing knowledge related to Data programing, computer and technology works. He is experienced with different software’s like C++, Microsoft, Adobe, Programing, the internet online apps and others. So far, his related experience, he has an experience of computer software at industries in Ethiopia and Canada. He is surfing the programing for up-to-date information, and new technology.",
+        "Mr. Sufean Ahmed who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, is committed to offering clients informed and strategic technology advice on organizational wellness and global aspects and works with great commitment and passion for technology and programing."
+      ]
+    },
+    {
+      name:"Mitiku Assefa (BSc in Computer Science)",
+      team:"technology",
+      position:"Technology Team",
+      image:"https://i.postimg.cc/sgtWV61G/mitiku-bio.jpg",
+      description:[
+        "Mr. Mitiku Assefa lives and works in Poland offering computer & information technology related client services with his deep-rooted experience in both expertise and diverse international experience. With a Bachelor's of Science Degree in Computer & Information Technology from Poland and different traininga in Data Analysis and Programing, Mr. Mitiku combines his solid programing and technology background with deep understanding of digital dynamics and information technology. Mr. Mitiku Assefa  as a Technology Team member of KEAB Africa Community Development and Human Rights Organization, he has sufficing knowledge related to Data programing, computer and technology works. Mr. Mitiku is experienced with different software’s like C++, Microsoft, Adobe, Programing, the internet online apps and others.",
+        "So far, his related experience, he has an experience of computer software at industries in Ethiopia and Poland. He is surfing the programing for up-to-date information, and new technology.",
+        "Mr. Mitiku who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, is committed to offering clients informed and strategic technology advice on organizational wellness and global aspects and works with great commitment and passion for technology and programing."
       ]
     },
     { 
@@ -193,7 +215,7 @@ export default function GeneralProvider({ children }) {
       image:"https://i.postimg.cc/SRX2FV1g/essey-bio.jpg",
       position:"Advisory Team",
       description:[
-        "Essey Petros is an LLB candidate at Hawassa University, dedicated to advancing human rights and social justice. As an Advisory Team of KEABI AFRICA Community Development and Human Rights Organization, he works to promote a just and inclusive society.",
+        "Essey Petros is an LLB candidate at Hawassa University, dedicated to advancing human rights and social justice. As an Advisory Team of KEAB AFRICA Community Development and Human Rights Organization, he works to promote a just and inclusive society.",
         "He serves as President of the Hawassa University Student Union, leading initiatives that empower students, and as Vice President of the Ethiopian Higher Education Institutions Student Union, advocating for student rights nationally. Additionally, Essey founded the Tesfa Counseling Association to provide essential support to those in need, demonstrating his commitment to community impact. His leadership and dedication make him a vital asset to the organizations he represents."
       ]
     },
@@ -254,7 +276,7 @@ export default function GeneralProvider({ children }) {
       ]
     },
     {
-      name:"Admasu Abebe (Development Expert)",
+      name:"Admasu Abebe (Development & Community Union Organizer)",
       team:"advisory",
       position:"Advisory Team",
       image:"https://i.postimg.cc/qMbMLwY5/ado-bio.jpg",
@@ -355,6 +377,11 @@ export default function GeneralProvider({ children }) {
       name:"Yeneneh Tamir",
       team:"support",
       position:"Driver"
+    },
+    {
+      name:"Haymanot Hasamo",
+      team:"support",
+      position:"Secretary of the organization"
     }
   ];
 
