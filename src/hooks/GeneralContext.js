@@ -41,12 +41,16 @@ export default function GeneralProvider({ children }) {
     {
       name: "Woyesa Woka Worana",
       position:
-        "Country Director of HALE-Human Rights & Inclusion Network (H-HRIN) | Human Rights Lawyer | Co-Founder of KEAB Africa Community Development and Human Rights Organization",
+        "Founder of KEABI Africa Community Development and Human Rights Organization |  Human Rights Advocate Human Rights Lawyer and Advocate | Policy Leader | Climate Justice Advocate | Gender Equality Champion | Social Impact Strategist |  SDGs | Inclusion",
       image: "https://i.postimg.cc/9X6Z5Bhv/woyessa-bio-photo.jpg",
       team: "executive",
       description: [
-        "Woyesa is a dedicated human rights lawyer and advocate for climate justice, peace, gender equality, and inclusion. As the Country Director of HALE-Human Rights & Inclusion Network (H-HRIN), he leads initiatives promoting social justice, sustainability, and human rights across Ethiopia and beyond.",
-        "As Co-Founder of  KEAB Africa Community Development and Human Rights Organization, Woyesa is committed to advancing sustainable development and protecting the rights of marginalized communities, working tirelessly to create a more just, inclusive, and sustainable world.",
+        "Woyesa Woka Worana is a dedicated human rights lawyer and the visionary founder of KEABI Africa Community Development and Human Rights Organization (KACDHRPO). With years of experience in advocating for justice, equality, and environmental sustainability, Woyesa established KACDHRPO to empower communities and champion inclusive development across Africa.",
+        "Woyesa’s work is grounded in a commitment to human rights, democracy, and social inclusion. He has a proven track record of advancing policy reforms, supporting marginalized populations, and driving impactful initiatives in gender equality, youth empowerment, and climate justice. His leadership is rooted in the belief that meaningful societal change begins with community-centered solutions and collaborative action.",
+        "Woyesa holds an LLB from Hawassa University, graduating with distinction and receiving the prestigious Gold Medal Award for Academic Excellence. His academic journey included extensive research on the intersection of human rights and policy frameworks. His thesis, “Recognition of Formal and Substantive Gender Equality and Policies under Ethiopian Labor Law,” proposed actionable strategies to close gaps in the implementation of gender-inclusive labor policies.",
+        "In addition to his role at KEABI Africa, Woyesa serves as Rights Policy Advocate at HALE: Human Rights and Inclusion Network (H-HRIN), where he focuses on inclusive policy development and advocacy. He also contributes to community service through pro bono legal aid and mentorship programs, amplifying his impact on vulnerable populations and young professionals alike.",
+        "Outside his professional work, Woyesa enjoys nature walks, photography, and playing volleyball—activities that reflect his passion for creativity, connection, and balance.",
+        "As the founder of KACDHRPO, Woyesa envisions a future where every individual is empowered to thrive in a just, inclusive, and sustainable society."
       ],
     },
     {
