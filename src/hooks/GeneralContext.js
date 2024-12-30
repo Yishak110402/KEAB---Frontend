@@ -19,6 +19,7 @@ export default function GeneralProvider({ children }) {
     "https://i.postimg.cc/qgVp1QtT/new-keab-hero.jpg",
     "https://i.postimg.cc/rsFMMHT9/hero-image-2.jpg",
     "https://i.postimg.cc/yNyPpjYH/keab-logo-2.jpg",
+    "https://i.postimg.cc/XNT07PR3/keab-hand-image.jpg"
   ];
   const team = [
     {
@@ -102,7 +103,7 @@ export default function GeneralProvider({ children }) {
     },
     {
       name:"Bisrat Borsamo Borago (BSc in Mechanical Engineering, BSc in Electromechanics)",
-      image:"https://i.postimg.cc/T1ZxzN6d/bisrat-image.jpg",
+      image:"https://i.postimg.cc/cCLy5Nqp/bisrat-bio.jpg",
       team:"technology",
       position:"Technology Team",
       description:[
@@ -239,7 +240,8 @@ export default function GeneralProvider({ children }) {
       description:[
         "Dr. Dagim who is an Advisory Team of KEAB AFRICA Community Development and Human Rights Organization has extensive experience working in government organizations at various levels. Dr. Dagim lives and works in Hawassa City in Ethiopia offering academic and social services with his deep-rooted experience in both academic expertise and diverse international experience in social works. Dr. Dagim has received a Doctorate degree from Hong Kong Poly Technic University in Hong Kong and currently he is also a Post Doctoral Fellow in Hong Kong Poly Technic University in Hong Kong.",
         "In addition, Dr. Dagim has involved in variety of voluntary activities including in helping women, youth and children through charity programs in Sidama National Regional States in Ethiopia. His academic background provides a strong foundation for her work in advocating for social work, community development, women and Childs education, and social empowerments. Currently, he has worked as a head for Department of Sociology at Hawassa University.  As part of Advisory Team of KEAB Africa Community Development and Human Rights Organization, Dr. Dagim is committed to offering strategic advice on organizational wellness and global aspects. His unique expertise in both local and international organization, combined with his dedication to empowering clients, makes him an invaluable resource for those looking to optimize the organizational activities for KEAB Africa Community Development and Human Rights Organization.",
-        "As an advisory team of KEAB Africa Community Development and Human Rights Organization, Dr. Dagim with unwavering commitment plays a pivotal role in steering the organization’s mission to promote community development, human rights, social inclusion, and gender equality across Ethiopia. "
+        "As an advisory team of KEAB Africa Community Development and Human Rights Organization, Dr. Dagim with unwavering commitment plays a pivotal role in steering the organization’s mission to promote community development, human rights, social inclusion, and gender equality across Ethiopia. ",
+        "Dr. Dagim also worked as project coordinator at Africa Center Hong Kong where he worked as educator and team builder in promoting rebranding blackness and connecting communities in Hong Kong. Dr. Dagim also works as senior resident tutor in the HK PolyU student hall"
       ]
     },
     {
