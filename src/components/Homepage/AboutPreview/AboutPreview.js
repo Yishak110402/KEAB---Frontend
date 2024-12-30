@@ -10,6 +10,9 @@ export default function AboutPreview() {
             if(entry.isIntersecting){
                 setVisible(true)
             }
+        },{
+            threshold:[0.9,1],
+            // rootMargin: "-50px"
         })
         observer.observe(aboutRef.current)
     },[])

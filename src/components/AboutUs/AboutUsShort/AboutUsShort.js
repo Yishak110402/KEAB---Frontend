@@ -9,8 +9,6 @@ export default function AboutUsShort(){
             if(entry.isIntersecting){
                 setVisible(true)
             }
-        },{
-            threshold:[0.9,1]
         })
         observer.observe(shortRef.current)
     },[])
