@@ -9,7 +9,7 @@ export default function KeyFocusAreas(){
             if(entry.isIntersecting){
                 setVisible(true)
             }
-        },{threshold:[0.4,1]})
+        },{threshold:[0.1,1]})
         observer.observe(keyAreasRef.current)
     },[])
     return(

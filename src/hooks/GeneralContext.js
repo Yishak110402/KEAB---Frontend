@@ -161,6 +161,18 @@ export default function GeneralProvider({ children }) {
         "Mr. Mitiku who is a Technology Team member of KEAB Africa Community Development and Human Rights Organization, is committed to offering clients informed and strategic technology advice on organizational wellness and global aspects and works with great commitment and passion for technology and programing."
       ]
     },
+    {
+      name:"Dr. Ashebir Tsedeke Godebo",
+      position:"Board Member and Advisory Team",
+      team:"advisory",
+      image:"https://i.postimg.cc/gj9mRNLr/ashebir-bio.jpg",
+      description:[
+        "Dr. Ashebir Tsedeke Godebo is a distinguished Agricultural Microbiology Research Scientist with a remarkable academic background. He holds a PhD and MSc in Agricultural Microbiology from the University of Saskatchewan, Canada, in addition to an MSc in Applied Microbiology and a BSc in Biomedical Sciences from Hawassa University, Ethiopia. Currently based in Saskatchewan, Canada, Dr. Ashebir Tsedeke Godebo is dedicated to developing innovative biological control methods for pulse crop diseases, aiming to enhance crop health and promote sustainable farming practices.",
+        "Dr. Ashebir Tsedeke Godebo is an expert in the science of plant-soil-microbe interactions and their application to agricultural challenges. His research encompasses a broad range of disciplines, including microbial genome analysis, comparative genomics, bioinformatics, and both modern and classical biology. He has published several articles in these fields in reputable international journals and has contributed significantly to the national microbiology society database. His work in microbial genomics and its applications to agriculture continues to expand our understanding of how microbial communities can be harnessed to improve crop health and soil fertility.",
+        "Renowned for his expertise in agricultural microbiology, Dr. Ashebir Tsedeke Godebo applies scientific solutions to address critical issues in food security, pest management, and sustainable crop production. With over twelve years of postgraduate and professional experience, his global perspective, coupled with his deep understanding of local agricultural systems, positions him as a leader in the field. His dedication to advancing scientific knowledge and promoting sustainable agriculture is evident in his ongoing research and professional contributions.",
+        "Beyond his technical expertise, Dr. Ashebir Tsedeke Godebo is deeply committed to equity, diversity, and inclusion in both academic and community settings. His unwavering belief in the importance of these values is reflected in his involvement with the KEAB Community Development and Human Rights Organization. As a Board Member and Advisory Team, Dr. Ashebir Tsedeke Godebo plays a key role in guiding the organization’s mission to promote social equity and empower marginalized communities. His contributions to KEAB underscore his passion for creating positive change and advancing the rights and opportunities of historically disadvantaged groups. Dr. Ashebir Tsedeke Godebo's work continues to make a significant impact on both the scientific community and society at large."
+      ]
+    },
     { 
       name:"Dr. Sivakumar Somasundaram",
       image:"https://i.postimg.cc/5yty5pMx/dr-sivar.jpg",
@@ -343,7 +355,7 @@ export default function GeneralProvider({ children }) {
     },
     {
       name: "Addisu Petros Busha (BA, MBA)",
-      image: "https://i.postimg.cc/HLq6KbL2/addisu-petros-bio.jpg",
+      image: "https://i.postimg.cc/prVYnBJz/addisu-bio.jpg",
       position: "Board Member",
       team: "board",
       description: [
