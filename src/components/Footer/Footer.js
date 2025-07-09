@@ -50,6 +50,7 @@ export default function Footer() {
           </a>
         </ul>
       </div>
+
     </footer>
   );
 }

@@ -1,0 +1,9 @@
+.copyright{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: #c69362;
+    color: #0c2416;
+}

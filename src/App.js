@@ -20,6 +20,7 @@ import Projects from "./pages/Projects";
 import OpenProject from "./pages/OpenProject";
 import SupportTeam from "./components/Team/SupportTeam/SupportTeam";
 import Partnerships from "./pages/Partnerships";
+import Copyright from "./components/Copyright/Copyright";
 
 export default function App() {
   return (
@@ -48,6 +49,7 @@ export default function App() {
             />
           </Routes>
           <Footer />
+          <Copyright />
         </GeneralProvider>
       </BrowserRouter>
     </div>

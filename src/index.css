@@ -14,6 +14,9 @@ body{
     overflow-x: hidden;
     background-color: #f7f7f7;
 }
+html, #root{
+    overflow-x: hidden;
+}
 
 /* #915c29 */
 /* #185530 */
